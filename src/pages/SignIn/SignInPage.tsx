@@ -1,4 +1,4 @@
-import { useState, useContext } from "react";
+import { useState } from "react";
 import { createStyles, makeStyles, Theme } from "@material-ui/core/styles";
 import Grid from "@material-ui/core/Grid";
 import Card from "@material-ui/core/Card";
@@ -8,7 +8,7 @@ import CardHeader from "@material-ui/core/CardHeader";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 import TextField from "@material-ui/core/TextField";
-import { FirebaseContext } from "../../providers/firebase";
+import { auth } from "../../providers/firebase";
 import { useHistory } from "react-router";
 import * as routes from "../../constants/routes";
 
@@ -33,10 +33,9 @@ export const SignInPage = () => {
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
   const classes = useStyles();
-  const firebase = useContext(FirebaseContext);
 
   const onSubmit = () => {
-    firebase.auth
+    auth
       .signInWithEmailAndPassword(email, password)
       .then(() => {
         setEmail("");

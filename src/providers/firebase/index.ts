@@ -1,5 +1,3 @@
-import * as auth from "./auth";
-import * as firebase from "./firebase";
-import { FirebaseContext } from "./context";
+import { auth } from "./firebase";
 
-export { auth, firebase, FirebaseContext };
+export { auth };

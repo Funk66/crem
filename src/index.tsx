@@ -4,7 +4,6 @@ import { BrowserRouter, Route } from "react-router-dom";
 import { createMuiTheme, CssBaseline, ThemeProvider } from "@material-ui/core";
 import useMediaQuery from "@material-ui/core/useMediaQuery";
 import { HomePage, SignInPage } from "./pages";
-import { firebase, FirebaseContext } from "./providers/firebase";
 import * as routes from "./constants/routes";
 
 function App() {
@@ -21,17 +20,15 @@ function App() {
   [];
 
   return (
-    <FirebaseContext.Provider value={{ 'auth': firebase.auth }}>
-      <ThemeProvider theme={theme}>
-        <CssBaseline />
-        <BrowserRouter>
-          <div>
-            <Route exact path={routes.HOME} component={HomePage} />
-            <Route exact path={routes.SIGN_IN} component={SignInPage} />
-          </div>
-        </BrowserRouter>
-      </ThemeProvider>
-    </FirebaseContext.Provider>
+    <ThemeProvider theme={theme}>
+      <CssBaseline />
+      <BrowserRouter>
+        <div>
+          <Route exact path={routes.HOME} component={HomePage} />
+          <Route exact path={routes.SIGN_IN} component={SignInPage} />
+        </div>
+      </BrowserRouter>
+    </ThemeProvider>
   );
 }
 
