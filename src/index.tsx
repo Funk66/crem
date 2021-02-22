@@ -1,10 +1,12 @@
-import { useMemo } from "react";
+import { useState, useMemo } from "react";
 import { render } from "react-dom";
-import { BrowserRouter, Route } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 import { createMuiTheme, CssBaseline, ThemeProvider } from "@material-ui/core";
 import useMediaQuery from "@material-ui/core/useMediaQuery";
-import { HomePage, SignInPage } from "./pages";
+import * as pages from "./pages";
+import { AuthContext, User } from "./providers/Auth";
 import * as routes from "./constants/routes";
+import { PublicRoute, PrivateRoute } from "./components";
 
 function App() {
   const prefersDarkMode = useMediaQuery("(prefers-color-scheme: dark)");
@@ -17,17 +19,19 @@ function App() {
       }),
     [prefersDarkMode]
   );
-  [];
+  const [user, setUser] = useState<User>();
 
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <BrowserRouter>
-        <div>
-          <Route exact path={routes.HOME} component={HomePage} />
-          <Route exact path={routes.SIGN_IN} component={SignInPage} />
-        </div>
-      </BrowserRouter>
+      <AuthContext.Provider value={{ user, setUser }}>
+        <BrowserRouter>
+          <div>
+            <PrivateRoute exact path={routes.HOME} component={pages.Home} />
+            <PublicRoute exact path={routes.SIGN_IN} component={pages.SignIn} />
+          </div>
+        </BrowserRouter>
+      </AuthContext.Provider>
     </ThemeProvider>
   );
 }

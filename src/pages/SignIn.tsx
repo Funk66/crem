@@ -1,4 +1,5 @@
-import { useState } from "react";
+import { useState, useContext } from "react";
+import { useHistory } from "react-router";
 import { createStyles, makeStyles, Theme } from "@material-ui/core/styles";
 import Grid from "@material-ui/core/Grid";
 import Card from "@material-ui/core/Card";
@@ -8,9 +9,9 @@ import CardHeader from "@material-ui/core/CardHeader";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 import TextField from "@material-ui/core/TextField";
-import { auth } from "../../providers/firebase";
-import { useHistory } from "react-router";
-import * as routes from "../../constants/routes";
+import { auth } from "../providers/firebase";
+import { AuthContext } from "../providers/Auth";
+import * as routes from "../constants/routes";
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
@@ -27,20 +28,26 @@ const useStyles = makeStyles((theme: Theme) =>
   })
 );
 
-export const SignInPage = () => {
+export const SignIn = () => {
   const history = useHistory();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
   const classes = useStyles();
+  const { setUser } = useContext(AuthContext);
 
   const onSubmit = () => {
     auth
       .signInWithEmailAndPassword(email, password)
-      .then(() => {
-        setEmail("");
-        setPassword("");
-        history.push(routes.HOME);
+      .then((response) => {
+        if (response.user?.email) {
+          setUser({ email: response.user.email });
+          history.push(routes.HOME);
+          setEmail("");
+          setPassword("");
+        } else {
+          setError("Unbekannter Nutzer");
+        }
       })
       .catch((error: any) => {
         setError(error.message);
@@ -86,7 +93,7 @@ export const SignInPage = () => {
                   onChange={(event) => setPassword(event.target.value)}
                 />
               </div>
-              <Typography style={{color: 'red'}}>{error}</Typography>
+              <Typography style={{ color: "red" }}>{error}</Typography>
             </CardContent>
             <CardActions>
               <Button
@@ -106,3 +113,5 @@ export const SignInPage = () => {
     </Grid>
   );
 };
+
+export default SignIn;

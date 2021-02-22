@@ -1,4 +1,4 @@
-import { SignInPage } from "./SignIn/SignInPage";
-import { HomePage } from "./Home/HomePage";
+import SignIn from "./SignIn";
+import Home from "./Home";
 
-export { HomePage, SignInPage };
+export { Home, SignIn };
