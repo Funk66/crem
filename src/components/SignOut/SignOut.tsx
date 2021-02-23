@@ -7,8 +7,7 @@ export const SignOut = () => {
   const history = useHistory();
 
   const onClick = () => {
-    auth.signOut();
-    history.push(routes.SIGN_IN);
+    auth.signOut().then(() => history.push(routes.SIGN_IN));
   };
 
   return (
@@ -25,4 +24,4 @@ export const SignOut = () => {
   );
 };
 
-export default SignOut
+export default SignOut;

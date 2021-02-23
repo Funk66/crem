@@ -13,13 +13,13 @@ export const PublicRoute = ({
   component: Component,
   ...rest
 }: PublicRouteProps) => {
-  const { user } = useContext(AuthContext);
+  const user = useContext(AuthContext);
 
   return (
     <Route
       {...rest}
       render={(props) =>
-        user ? <Redirect to={HOME} /> : <Component {...props} />
+        user.email ? <Redirect to={HOME} /> : <Component {...props} />
       }
     />
   );

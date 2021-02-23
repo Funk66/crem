@@ -1,4 +1,4 @@
-import { useState, useMemo } from "react";
+import { useEffect, useState, useMemo } from "react";
 import { render } from "react-dom";
 import { BrowserRouter } from "react-router-dom";
 import { createMuiTheme, CssBaseline, ThemeProvider } from "@material-ui/core";
@@ -7,6 +7,7 @@ import * as pages from "./pages";
 import { AuthContext, User } from "./providers/Auth";
 import * as routes from "./constants/routes";
 import { PublicRoute, PrivateRoute } from "./components";
+import { auth } from "./providers/firebase";
 
 function App() {
   const prefersDarkMode = useMediaQuery("(prefers-color-scheme: dark)");
@@ -19,12 +20,26 @@ function App() {
       }),
     [prefersDarkMode]
   );
-  const [user, setUser] = useState<User>();
+  const [user, setUser] = useState({
+    email: localStorage.getItem("email"),
+  } as User);
+
+  useEffect(() => {
+    auth.onAuthStateChanged((user) => {
+      if (user) {
+        localStorage.setItem("email", JSON.stringify(user.email));
+        setUser({ email: user.email });
+      } else {
+        localStorage.removeItem("email");
+        setUser({});
+      }
+    });
+  }, []);
 
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <AuthContext.Provider value={{ user, setUser }}>
+      <AuthContext.Provider value={user}>
         <BrowserRouter>
           <div>
             <PrivateRoute exact path={routes.HOME} component={pages.Home} />

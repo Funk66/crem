@@ -3,12 +3,12 @@ import { SignOut } from "../components";
 import { AuthContext } from "../providers/Auth";
 
 export const Home = () => {
-  const authContext = useContext(AuthContext);
+  const user = useContext(AuthContext);
 
   return (
     <div>
       <h1>Home</h1>
-      <p>{JSON.stringify(authContext.user)}</p>
+      <p>{JSON.stringify(user)}</p>
       <SignOut />
     </div>
   );

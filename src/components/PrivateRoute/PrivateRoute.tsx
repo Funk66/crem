@@ -13,13 +13,13 @@ export const PrivateRoute = ({
   component: Component,
   ...rest
 }: PrivateRouteProps) => {
-  const { user } = useContext(AuthContext);
+  const user = useContext(AuthContext);
 
   return (
     <Route
       {...rest}
       render={(props) =>
-        user ? <Component {...props} /> : <Redirect to={SIGN_IN} />
+        user.email ? <Component {...props} /> : <Redirect to={SIGN_IN} />
       }
     />
   );

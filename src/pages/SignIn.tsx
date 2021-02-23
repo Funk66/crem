@@ -1,4 +1,4 @@
-import { useState, useContext } from "react";
+import { useState, } from "react";
 import { useHistory } from "react-router";
 import { createStyles, makeStyles, Theme } from "@material-ui/core/styles";
 import Grid from "@material-ui/core/Grid";
@@ -10,7 +10,6 @@ import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 import TextField from "@material-ui/core/TextField";
 import { auth } from "../providers/firebase";
-import { AuthContext } from "../providers/Auth";
 import * as routes from "../constants/routes";
 
 const useStyles = makeStyles((theme: Theme) =>
@@ -34,24 +33,12 @@ export const SignIn = () => {
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
   const classes = useStyles();
-  const { setUser } = useContext(AuthContext);
 
   const onSubmit = () => {
     auth
       .signInWithEmailAndPassword(email, password)
-      .then((response) => {
-        if (response.user?.email) {
-          setUser({ email: response.user.email });
-          history.push(routes.HOME);
-          setEmail("");
-          setPassword("");
-        } else {
-          setError("Unbekannter Nutzer");
-        }
-      })
-      .catch((error: any) => {
-        setError(error.message);
-      });
+      .then(() => history.push(routes.HOME))
+      .catch((error: any) => setError(error.message));
   };
 
   return (
