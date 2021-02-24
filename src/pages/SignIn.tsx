@@ -1,14 +1,16 @@
-import { useState, } from "react";
+import { useState } from "react";
 import { useHistory } from "react-router";
 import { createStyles, makeStyles, Theme } from "@material-ui/core/styles";
-import Grid from "@material-ui/core/Grid";
-import Card from "@material-ui/core/Card";
-import CardContent from "@material-ui/core/CardContent";
-import CardActions from "@material-ui/core/CardActions";
-import CardHeader from "@material-ui/core/CardHeader";
-import Button from "@material-ui/core/Button";
-import Typography from "@material-ui/core/Typography";
-import TextField from "@material-ui/core/TextField";
+import {
+  Grid,
+  Card,
+  CardContent,
+  CardActions,
+  CardHeader,
+  Button,
+  Typography,
+  TextField,
+} from "@material-ui/core";
 import { auth } from "../providers/firebase";
 import * as routes from "../constants/routes";
 
