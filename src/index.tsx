@@ -55,13 +55,25 @@ function App() {
             <SideBar hidden={!user.email} />
             <main className={classes.content}>
               <PrivateRoute exact path={routes.HOME} component={pages.Home} />
-              <PrivateRoute exact path={routes.ACCOUNT} component={pages.Account} />
-              <PrivateRoute exact path={routes.SKILLS} component={pages.Skills} />
+              <PrivateRoute
+                exact
+                path={routes.ACCOUNT}
+                component={pages.Account}
+              />
+              <PrivateRoute
+                exact
+                path={routes.SKILLS}
+                component={pages.Skills}
+              />
               <PrivateRoute exact path={routes.TEAM} component={pages.Team} />
-              <PrivateRoute exact path={routes.SEARCH} component={pages.Search} />
+              <PrivateRoute
+                exact
+                path={routes.SEARCH}
+                component={pages.Search}
+              />
             </main>
-            <PublicRoute exact path={routes.SIGN_IN} component={pages.SignIn} />
           </div>
+          <PublicRoute exact path={routes.SIGN_IN} component={pages.SignIn} />
         </BrowserRouter>
       </AuthContext.Provider>
     </ThemeProvider>

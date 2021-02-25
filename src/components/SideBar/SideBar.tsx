@@ -74,6 +74,7 @@ const navButtons = [
     name: "Suche",
     route: "/search",
     Icon: Search,
+    divider: true,
   },
 ];
 
@@ -123,12 +124,13 @@ export const SideBar = ({ hidden }: SideBarProps) => {
       </div>
       <List component="nav">
         <Divider />
-        {navButtons.map(({ name, route, Icon }) => (
+        {navButtons.map(({ name, route, Icon, divider }) => (
           <ListItem
             button
             key={name}
             onClick={() => history.push(route)}
             selected={selected === route}
+            divider={divider}
           >
             <ListItemIcon>
               <Icon />
@@ -136,8 +138,7 @@ export const SideBar = ({ hidden }: SideBarProps) => {
             <ListItemText primary={name} />
           </ListItem>
         ))}
-        <Divider />
-        <ListItem button key={"Ausloggen"} onClick={signOut}>
+        <ListItem button key={"Ausloggen"} onClick={signOut} divider>
           <ListItemIcon>
             <ExitToApp />
           </ListItemIcon>
