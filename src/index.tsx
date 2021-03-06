@@ -71,6 +71,11 @@ function App() {
                 path={routes.SEARCH}
                 component={pages.Search}
               />
+              <PrivateRoute
+                exact
+                path={routes.SETTINGS}
+                component={pages.Settings}
+              />
             </main>
           </div>
           <PublicRoute exact path={routes.SIGN_IN} component={pages.SignIn} />

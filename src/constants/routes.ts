@@ -3,4 +3,5 @@ export const HOME = "/",
   ACCOUNT = "/account",
   SKILLS = "/skills",
   TEAM = "/team",
-  SEARCH = "/search";
+  SEARCH = "/search",
+  SETTINGS = "/settings";

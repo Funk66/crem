@@ -18,6 +18,7 @@ import {
   ExitToApp,
   People,
   Search,
+  Settings,
   Star,
 } from "@material-ui/icons";
 import { auth } from "../../providers/firebase";
@@ -75,6 +76,11 @@ const navButtons = [
     route: "/search",
     Icon: Search,
     divider: true,
+  },
+  {
+    name: "Einstellungen",
+    route: "/settings",
+    Icon: Settings,
   },
 ];
 
