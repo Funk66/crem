@@ -9,7 +9,12 @@ import {
   Grid,
   Typography,
 } from "@material-ui/core";
-import { Email, Person, SupervisorAccount, LocationCity } from "@material-ui/icons";
+import {
+  Email,
+  Person,
+  SupervisorAccount,
+  LocationCity,
+} from "@material-ui/icons";
 
 const userInfo = [
   {
@@ -46,11 +51,11 @@ export const Account = () => {
           />
           <CardContent>
             <List>
-              <ListItem>
+              <ListItem key={1}>
                 <Typography variant="h4">Robert Landeck</Typography>
               </ListItem>
               {userInfo.map(({ entry, value, Icon }) => (
-                <ListItem>
+                <ListItem key={entry}>
                   <ListItemIcon>
                     <Icon />
                   </ListItemIcon>
