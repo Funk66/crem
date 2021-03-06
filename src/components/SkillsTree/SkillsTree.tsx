@@ -1,7 +1,7 @@
 import { makeStyles, createStyles, Theme } from "@material-ui/core/styles";
 import { TreeView, TreeItem } from "@material-ui/lab";
 import { ExpandMore, ChevronRight } from "@material-ui/icons";
-import { Skill, getSkills } from "../../providers/Skills";
+import { Skill, getSkills, getSkill } from "../../providers/Skills";
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
@@ -20,9 +20,7 @@ interface SkillsTreeProps {
 
 export const SkillsTree = (props: SkillsTreeProps) => {
   const classes = useStyles();
-  const roots: Skill[] = [];
   const skills = getSkills();
-  skills.forEach((skill) => (skill.parent ? null : roots.push(skill)));
 
   const treeItems = (skills: Skill[]) =>
     skills.map((skill) => (
@@ -42,10 +40,9 @@ export const SkillsTree = (props: SkillsTreeProps) => {
     const selection: Skill[] = [];
     if (props.onSkillSelect) {
       nodeIds.forEach((skillId) => {
-        const skill = skills.get(parseInt(skillId));
-        const leaves = getChildren(skill!, []);
-        selection.push(...leaves)
+        selection.push(...getChildren(getSkill(skillId), []))
       });
+      console.log(selection)
       props.onSkillSelect(selection);
     }
   };
@@ -58,7 +55,7 @@ export const SkillsTree = (props: SkillsTreeProps) => {
       defaultCollapseIcon={<ExpandMore />}
       defaultExpandIcon={<ChevronRight />}
     >
-      {treeItems(roots)}
+      {treeItems(skills.filter(skill => !skill.parent))}
     </TreeView>
   );
 };
