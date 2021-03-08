@@ -55,7 +55,7 @@ export const SkillsTree = (props: SkillsTreeProps) => {
       defaultCollapseIcon={<ExpandMore />}
       defaultExpandIcon={<ChevronRight />}
     >
-      {treeItems(skills.filter(skill => !skill.parent))}
+      {treeItems(skills.filter((skill) => !skill.parent))}
     </TreeView>
   );
 };

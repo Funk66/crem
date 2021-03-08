@@ -1,6 +1,8 @@
 import { ChangeEvent, useState, Fragment } from "react";
 import {
-  Paper,
+  Card,
+  CardHeader,
+  CardContent,
   Grid,
   Tooltip,
   Table,
@@ -147,17 +149,20 @@ export const Skills = () => {
   getRatings();
 
   return (
-    <Paper style={{ flexGrow: 1 }}>
-      <Grid container>
-        <Grid item xs={12}></Grid>
-        <Grid item sm={4} xs={12}>
-          <SkillsTree onSkillSelect={setSelection} />
+    <Card style={{ flexGrow: 1 }}>
+      <CardHeader title="Meine Kompetenzen" />
+      <CardContent style={{padding: 0}}>
+        <Grid container>
+          <Grid item xs={12}></Grid>
+          <Grid item sm={4} xs={12}>
+            <SkillsTree onSkillSelect={setSelection} />
+          </Grid>
+          <Grid item sm={8} xs={12}>
+            <SkillsTable skills={selection.length > 0 ? selection : skills} />
+          </Grid>
         </Grid>
-        <Grid item sm={8} xs={12}>
-          <SkillsTable skills={selection.length > 0 ? selection : skills} />
-        </Grid>
-      </Grid>
-    </Paper>
+      </CardContent>
+    </Card>
   );
 };
 
