@@ -1,7 +1,7 @@
 import { ElementType, useContext } from "react";
 import { Route, Redirect } from "react-router-dom";
 import { AuthContext } from "../../providers/Auth";
-import { HOME } from "../../constants/routes";
+import { Route as Path } from "../../constants";
 
 interface PublicRouteProps {
   component: ElementType;
@@ -19,7 +19,7 @@ export const PublicRoute = ({
     <Route
       {...rest}
       render={(props) =>
-        user.email ? <Redirect to={HOME} /> : <Component {...props} />
+        user.email ? <Redirect to={Path.Home} /> : <Component {...props} />
       }
     />
   );

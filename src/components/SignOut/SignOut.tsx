@@ -1,13 +1,13 @@
 import { useHistory } from "react-router";
 import Button from "@material-ui/core/Button";
 import { auth } from "../../providers/firebase";
-import * as routes from "../../constants/routes";
+import { Route } from "../../constants";
 
 export const SignOut = () => {
   const history = useHistory();
 
   const onClick = () => {
-    auth.signOut().then(() => history.push(routes.SIGN_IN));
+    auth.signOut().then(() => history.push(Route.SignIn));
   };
 
   return (

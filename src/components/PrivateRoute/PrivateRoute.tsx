@@ -1,7 +1,7 @@
 import { ElementType, useContext } from "react";
 import { Route, Redirect } from "react-router-dom";
 import { AuthContext } from "../../providers/Auth";
-import { SIGN_IN } from "../../constants/routes";
+import { Route as Path } from "../../constants";
 
 interface PrivateRouteProps {
   component: ElementType;
@@ -19,7 +19,7 @@ export const PrivateRoute = ({
     <Route
       {...rest}
       render={(props) =>
-        user.email ? <Component {...props} /> : <Redirect to={SIGN_IN} />
+        user.email ? <Component {...props} /> : <Redirect to={Path.SignIn} />
       }
     />
   );

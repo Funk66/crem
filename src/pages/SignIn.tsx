@@ -12,7 +12,7 @@ import {
   TextField,
 } from "@material-ui/core";
 import { auth } from "../providers/firebase";
-import * as routes from "../constants/routes";
+import { Route } from "../constants";
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
@@ -39,7 +39,7 @@ export const SignIn = () => {
   const onSubmit = () => {
     auth
       .signInWithEmailAndPassword(email, password)
-      .then(() => history.push(routes.HOME))
+      .then(() => history.push(Route.Home))
       .catch((error: any) => setError(error.message));
   };
 

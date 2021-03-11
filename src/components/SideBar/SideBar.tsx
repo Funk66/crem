@@ -22,7 +22,7 @@ import {
   Star,
 } from "@material-ui/icons";
 import { auth } from "../../providers/firebase";
-import * as routes from "../../constants/routes";
+import { Route } from "../../constants";
 
 const drawerWidth = 200;
 
@@ -99,7 +99,7 @@ export const SideBar = ({ hidden }: SideBarProps) => {
   };
 
   const signOut = () => {
-    auth.signOut().then(() => history.push(routes.SIGN_IN));
+    auth.signOut().then(() => history.push(Route.SignIn));
   };
 
   useEffect(() => {
