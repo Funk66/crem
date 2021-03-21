@@ -1,9 +1,6 @@
 import firebase from "firebase/app";
+import "firebase/firestore";
 import "firebase/auth";
-
-export interface Firebase {
-  auth: any;
-}
 
 const config = {
   apiKey: "AIzaSyBIauoiTATE_tPOq04bmFTUlV-TbsjeGyM",

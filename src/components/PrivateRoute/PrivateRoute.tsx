@@ -1,6 +1,6 @@
-import { ElementType, useContext } from "react";
+import { ElementType } from "react";
 import { Route, Redirect } from "react-router-dom";
-import { AuthContext } from "../../providers/Auth";
+import { useAuth } from "../../providers/Auth";
 import { Route as Path } from "../../constants";
 
 interface PrivateRouteProps {
@@ -13,13 +13,13 @@ export const PrivateRoute = ({
   component: Component,
   ...rest
 }: PrivateRouteProps) => {
-  const user = useContext(AuthContext);
+  const { user } = useAuth();
 
   return (
     <Route
       {...rest}
       render={(props) =>
-        user.email ? <Component {...props} /> : <Redirect to={Path.SignIn} />
+        user ? <Component {...props} /> : <Redirect to={Path.SignIn} />
       }
     />
   );
