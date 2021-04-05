@@ -1,6 +1,6 @@
-import { ElementType, useContext } from "react";
+import { ElementType } from "react";
 import { Route, Redirect } from "react-router-dom";
-import { AuthContext } from "../../providers/Auth";
+import { useAuth } from "../../providers/Auth";
 import { Route as Path } from "../../constants";
 
 interface PublicRouteProps {
@@ -13,13 +13,13 @@ export const PublicRoute = ({
   component: Component,
   ...rest
 }: PublicRouteProps) => {
-  const user = useContext(AuthContext);
+  const { user } = useAuth();
 
   return (
     <Route
       {...rest}
       render={(props) =>
-        user.email ? <Redirect to={Path.Home} /> : <Component {...props} />
+        user ? <Redirect to={Path.Home} /> : <Component {...props} />
       }
     />
   );

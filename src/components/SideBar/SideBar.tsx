@@ -21,8 +21,8 @@ import {
   Settings,
   Star,
 } from "@material-ui/icons";
-import { auth } from "../../providers/firebase";
 import { Route } from "../../constants";
+import { useAuth } from "../../providers/Auth";
 
 const drawerWidth = 200;
 
@@ -84,22 +84,15 @@ const navButtons = [
   },
 ];
 
-interface SideBarProps {
-  hidden: boolean;
-}
-
-export const SideBar = ({ hidden }: SideBarProps) => {
+export const SideBar = () => {
   const history = useHistory();
   const classes = useStyles();
   const [open, setOpen] = useState(false);
   const [selected, setSelected] = useState("");
+  const auth = useAuth();
 
   const toggleDrawer = () => {
     setOpen(!open);
-  };
-
-  const signOut = () => {
-    auth.signOut().then(() => history.push(Route.SignIn));
   };
 
   useEffect(() => {
@@ -109,50 +102,57 @@ export const SideBar = ({ hidden }: SideBarProps) => {
     });
   }, [history]);
 
-  return hidden ? null : (
-    <Drawer
-      variant="permanent"
-      className={clsx(classes.drawer, {
-        [classes.drawerOpen]: open,
-        [classes.drawerClose]: !open,
-      })}
-      classes={{
-        paper: clsx({
+  if (auth.user)
+    return (
+      <Drawer
+        variant="permanent"
+        className={clsx(classes.drawer, {
           [classes.drawerOpen]: open,
           [classes.drawerClose]: !open,
-        }),
-      }}
-    >
-      <div className={classes.toggle}>
-        <IconButton onClick={toggleDrawer}>
-          {open ? <ChevronLeft /> : <ChevronRight />}
-        </IconButton>
-      </div>
-      <List component="nav">
-        <Divider />
-        {navButtons.map(({ name, route, Icon, divider }) => (
+        })}
+        classes={{
+          paper: clsx({
+            [classes.drawerOpen]: open,
+            [classes.drawerClose]: !open,
+          }),
+        }}
+      >
+        <div className={classes.toggle}>
+          <IconButton onClick={toggleDrawer}>
+            {open ? <ChevronLeft /> : <ChevronRight />}
+          </IconButton>
+        </div>
+        <List component="nav">
+          <Divider />
+          {navButtons.map(({ name, route, Icon, divider }) => (
+            <ListItem
+              button
+              key={name}
+              onClick={() => history.push(route)}
+              selected={selected === route}
+              divider={divider}
+            >
+              <ListItemIcon>
+                <Icon />
+              </ListItemIcon>
+              <ListItemText primary={name} />
+            </ListItem>
+          ))}
           <ListItem
             button
-            key={name}
-            onClick={() => history.push(route)}
-            selected={selected === route}
-            divider={divider}
+            key={"Ausloggen"}
+            onClick={() => auth.signOut().then(() => history.push(Route.SignIn))}
+            divider
           >
             <ListItemIcon>
-              <Icon />
+              <ExitToApp />
             </ListItemIcon>
-            <ListItemText primary={name} />
+            <ListItemText primary="Ausloggen" />
           </ListItem>
-        ))}
-        <ListItem button key={"Ausloggen"} onClick={signOut} divider>
-          <ListItemIcon>
-            <ExitToApp />
-          </ListItemIcon>
-          <ListItemText primary="Ausloggen" />
-        </ListItem>
-      </List>
-    </Drawer>
-  );
+        </List>
+      </Drawer>
+    );
+  else return null;
 };
 
 export default SideBar;

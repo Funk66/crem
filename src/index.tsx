@@ -1,14 +1,13 @@
-import { useEffect, useState, useMemo } from "react";
+import { useMemo } from "react";
 import { render } from "react-dom";
 import { BrowserRouter } from "react-router-dom";
 import { createMuiTheme, CssBaseline, ThemeProvider } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import useMediaQuery from "@material-ui/core/useMediaQuery";
 import * as pages from "./pages";
-import { AuthContext, User } from "./providers/Auth";
 import { Route } from "./constants";
 import { PublicRoute, PrivateRoute, SideBar } from "./components";
-import { auth } from "./providers/firebase";
+import { ProvideAuth } from "./providers/Auth";
 
 const useStyles = makeStyles((theme) => ({
   root: { display: "flex" },
@@ -30,29 +29,14 @@ function App() {
     [prefersDarkMode]
   );
   const classes = useStyles();
-  const [user, setUser] = useState({
-    email: localStorage.getItem("email"),
-  } as User);
-
-  useEffect(() => {
-    auth.onAuthStateChanged((user) => {
-      if (user) {
-        localStorage.setItem("email", JSON.stringify(user.email));
-        setUser({ email: user.email });
-      } else {
-        localStorage.removeItem("email");
-        setUser({});
-      }
-    });
-  }, []);
 
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <AuthContext.Provider value={user}>
+      <ProvideAuth>
         <BrowserRouter>
           <div className={classes.root}>
-            <SideBar hidden={!user.email} />
+            <SideBar />
             <main className={classes.content}>
               <PrivateRoute exact path={Route.Home} component={pages.Home} />
               <PrivateRoute
@@ -66,7 +50,11 @@ function App() {
                 component={pages.Skills}
               />
               <PrivateRoute exact path={Route.Team} component={pages.Team} />
-              <PrivateRoute exact path={Route.Team} component={pages.Search} />
+              <PrivateRoute
+                exact
+                path={Route.Search}
+                component={pages.Search}
+              />
               <PrivateRoute
                 exact
                 path={Route.Settings}
@@ -76,7 +64,7 @@ function App() {
           </div>
           <PublicRoute exact path={Route.SignIn} component={pages.SignIn} />
         </BrowserRouter>
-      </AuthContext.Provider>
+      </ProvideAuth>
     </ThemeProvider>
   );
 }

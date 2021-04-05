@@ -11,7 +11,7 @@ import {
   Typography,
   TextField,
 } from "@material-ui/core";
-import { auth } from "../providers/firebase";
+import { useAuth } from "../providers/Auth";
 import { Route } from "../constants";
 
 const useStyles = makeStyles((theme: Theme) =>
@@ -35,10 +35,11 @@ export const SignIn = () => {
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
   const classes = useStyles();
+  const auth = useAuth();
 
   const onSubmit = () => {
     auth
-      .signInWithEmailAndPassword(email, password)
+      .signIn(email, password)
       .then(() => history.push(Route.Home))
       .catch((error: any) => setError(error.message));
   };
