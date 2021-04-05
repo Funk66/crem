@@ -1,17 +1,17 @@
 import { ChangeEvent, useState } from "react";
 import {
+  Switch,
   Card,
   CardHeader,
   CardContent,
   Grid,
-  Tooltip,
   Table,
   TableHead,
   TableBody,
   TableRow,
   TableCell,
 } from "@material-ui/core";
-import { Check, PersonPin, Feedback } from "@material-ui/icons";
+import { Check, PersonPin } from "@material-ui/icons";
 import Rating from "@material-ui/lab/Rating";
 import { SkillsTree } from "../components";
 import {
@@ -43,22 +43,29 @@ const SkillRow = (props: SkillRowProps) => {
     value: props.rating.rating,
   });
 
+  const handleSwitch = (event: ChangeEvent<{}>, checked: boolean) => {
+    handleChange(event, checked ? 1 : 0)
+  }
+
   const handleChange = (_: ChangeEvent<{}>, value: number | null) => {
     props.rating.rating = value || 0;
     props.rating.status = 1;
     setRow({ value: props.rating.rating, status: props.rating.status });
   };
 
-  // TODO: skill.type == 'rating' ? Rating : Toggle
   return (
     <TableRow key={props.id}>
       <TableCell>{props.name}</TableCell>
       <TableCell>
-        <Rating
-          name={props.id.toString()}
-          value={row.value}
-          onChange={handleChange}
-        />
+        {props.type === "rating" ? (
+          <Rating
+            name={props.id.toString()}
+            value={row.value}
+            onChange={handleChange}
+          />
+        ) : (
+          <Switch checked={!!row.value} color="primary" onChange={handleSwitch}/>
+        )}
       </TableCell>
       <TableCell>
         <TableIcon status={row.status} />
@@ -73,16 +80,6 @@ const TableIcon = (props: TableIconProps) => {
       return <PersonPin style={{ color: "#9999cc" }} />;
     case 2:
       return <Check style={{ color: "#559955" }} />;
-    case 3:
-      return (
-        <Tooltip
-          title={"Python 2.7 zählt nicht. Bitte korrigieren."}
-          placement="left"
-          arrow
-        >
-          <Feedback style={{ color: "#cccc55" }} />
-        </Tooltip>
-      );
     default:
       return null;
   }
