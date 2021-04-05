@@ -48,23 +48,5 @@ export function getRating(skillId: number) {
   return ratingMap[skillId] || { skill: skillId, rating: 0, status: 0 };
 }
 
-export const ratings: Rating[] = [
-  { skill: 1, rating: 0, status: 0 },
-  { skill: 2, rating: 2, status: 1 },
-  { skill: 3, rating: 4, status: 3 },
-  { skill: 4, rating: 0, status: 0 },
-  { skill: 5, rating: 1, status: 2 },
-  { skill: 6, rating: 3, status: 2 },
-  { skill: 7, rating: 5, status: 2 },
-  { skill: 8, rating: 0, status: 0 },
-  { skill: 9, rating: 4, status: 2 },
-  { skill: 10, rating: 0, status: 0 },
-  { skill: 11, rating: 0, status: 0 },
-  { skill: 12, rating: 1, status: 2 },
-  { skill: 13, rating: 3, status: 1 },
-  { skill: 14, rating: 0, status: 0 },
-  { skill: 15, rating: 4, status: 2 },
-  { skill: 16, rating: 1, status: 2 },
-];
-
 const skills: SkillType[] = require('./skills.json')
+const ratings: Rating[] = require('./ratings.json')

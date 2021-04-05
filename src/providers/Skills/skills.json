@@ -501,49 +501,49 @@
     "name": "GPM IPMA Certification Basis Certificate",
     "parent": 84,
     "id": 85,
-    "type": "rating"
+    "type": "binary"
   },
   {
     "name": "GPM IPMA Certification Level D",
     "parent": 84,
     "id": 86,
-    "type": "rating"
+    "type": "binary"
   },
   {
     "name": "GPM IPMA Certification Level C",
     "parent": 84,
     "id": 87,
-    "type": "rating"
+    "type": "binary"
   },
   {
     "name": "GPM IPMA Certification Level B",
     "parent": 84,
     "id": 88,
-    "type": "rating"
+    "type": "binary"
   },
   {
     "name": "GPM IPMA Certification Level A",
     "parent": 84,
     "id": 89,
-    "type": "rating"
+    "type": "binary"
   },
   {
     "name": "PMI CAPM Certification",
     "parent": 84,
     "id": 90,
-    "type": "rating"
+    "type": "binary"
   },
   {
     "name": "PMI PMP Certification",
     "parent": 84,
     "id": 91,
-    "type": "rating"
+    "type": "binary"
   },
   {
     "name": "Prince 2 Certification",
     "parent": 84,
     "id": 92,
-    "type": "rating"
+    "type": "binary"
   },
   {
     "name": "B.1.07 Skill Detail 2 - Tools",
