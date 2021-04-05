@@ -1,4 +1,4 @@
-import { ChangeEvent, useState, Fragment } from "react";
+import { ChangeEvent, useState } from "react";
 import {
   Card,
   CardHeader,
@@ -11,7 +11,7 @@ import {
   TableRow,
   TableCell,
 } from "@material-ui/core";
-import { Info, Check, PersonPin, Feedback } from "@material-ui/icons";
+import { Check, PersonPin, Feedback } from "@material-ui/icons";
 import Rating from "@material-ui/lab/Rating";
 import { SkillsTree } from "../components";
 import {
@@ -33,8 +33,8 @@ interface TableIconProps {
 interface SkillRowProps {
   id: number;
   name: string;
-  description?: string;
   rating: RatingType;
+  type: string;
 }
 
 const SkillRow = (props: SkillRowProps) => {
@@ -49,11 +49,9 @@ const SkillRow = (props: SkillRowProps) => {
     setRow({ value: props.rating.rating, status: props.rating.status });
   };
 
+  // TODO: skill.type == 'rating' ? Rating : Toggle
   return (
     <TableRow key={props.id}>
-      <TableCell>
-        <InfoIcon text={props.description} />
-      </TableCell>
       <TableCell>{props.name}</TableCell>
       <TableCell>
         <Rating
@@ -90,39 +88,11 @@ const TableIcon = (props: TableIconProps) => {
   }
 };
 
-const InfoIcon = ({ text }: { text?: string }) => {
-  if (!text) return null;
-  else if (text === "sprache")
-    return (
-      <Tooltip
-        title={
-          <Fragment>
-            {"3 Sterne = B2"}
-            <br />
-            {"4 Sterne = C2"}
-            <br />
-            {"5 Sterne = Muttersprachler"}
-          </Fragment>
-        }
-        placement="left"
-        arrow
-      >
-        <Info style={{ color: "#cccccc" }} />
-      </Tooltip>
-    );
-  return (
-    <Tooltip title={text} placement="left" arrow>
-      <Info style={{ color: "#cccccc" }} />
-    </Tooltip>
-  );
-};
-
 const SkillsTable = (props: SkillsTableProps) => {
   return (
     <Table size="small">
       <TableHead>
         <TableRow>
-          <TableCell style={{ width: "36px" }}></TableCell>
           <TableCell>Kompetenz</TableCell>
           <TableCell>Ausprägung</TableCell>
           <TableCell style={{ width: "26px" }}></TableCell>
@@ -133,8 +103,8 @@ const SkillsTable = (props: SkillsTableProps) => {
           <SkillRow
             key={skill.id.toString()}
             name={skill.name}
-            description={skill.description}
             id={skill.id}
+            type={skill.type}
             rating={getRating(skill.id)}
           />
         ))}
@@ -151,7 +121,7 @@ export const Skills = () => {
   return (
     <Card style={{ flexGrow: 1 }}>
       <CardHeader title="Meine Kompetenzen" />
-      <CardContent style={{padding: 0}}>
+      <CardContent style={{ padding: 0 }}>
         <Grid container>
           <Grid item xs={12}></Grid>
           <Grid item sm={4} xs={12}>

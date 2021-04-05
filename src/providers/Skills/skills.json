@@ -1,0 +1,3584 @@
+[
+  {
+    "name": "A. Branch",
+    "parent": null,
+    "id": 2,
+    "type": "rating"
+  },
+  {
+    "name": "Agency, Advertising, Marketing & PR",
+    "parent": 2,
+    "id": 3,
+    "type": "rating"
+  },
+  {
+    "name": "Automotive",
+    "parent": 2,
+    "id": 4,
+    "type": "rating"
+  },
+  {
+    "name": "Banks",
+    "parent": 2,
+    "id": 5,
+    "type": "rating"
+  },
+  {
+    "name": "Construction Sector",
+    "parent": 2,
+    "id": 6,
+    "type": "rating"
+  },
+  {
+    "name": "Mining",
+    "parent": 2,
+    "id": 7,
+    "type": "rating"
+  },
+  {
+    "name": "Education & Training",
+    "parent": 2,
+    "id": 8,
+    "type": "rating"
+  },
+  {
+    "name": "Chemical and Petroleum Processing",
+    "parent": 2,
+    "id": 9,
+    "type": "rating"
+  },
+  {
+    "name": "Printing, Paper and Packaging Industries",
+    "parent": 2,
+    "id": 10,
+    "type": "rating"
+  },
+  {
+    "name": "Electrical Engineering, Precision Mechanics & Optics",
+    "parent": 2,
+    "id": 11,
+    "type": "rating"
+  },
+  {
+    "name": "Energy and Water Supply & Disposal",
+    "parent": 2,
+    "id": 12,
+    "type": "rating"
+  },
+  {
+    "name": "Financial Service Providers",
+    "parent": 2,
+    "id": 13,
+    "type": "rating"
+  },
+  {
+    "name": "Leisure, Tourism, Culture & Sport",
+    "parent": 2,
+    "id": 14,
+    "type": "rating"
+  },
+  {
+    "name": "Health & Social Services",
+    "parent": 2,
+    "id": 15,
+    "type": "rating"
+  },
+  {
+    "name": "Glass, Ceramics Manufacturing & Processing",
+    "parent": 2,
+    "id": 16,
+    "type": "rating"
+  },
+  {
+    "name": "Wholesale & Retail",
+    "parent": 2,
+    "id": 17,
+    "type": "rating"
+  },
+  {
+    "name": "Craft",
+    "parent": 2,
+    "id": 18,
+    "type": "rating"
+  },
+  {
+    "name": "Wood and Furniture Industry",
+    "parent": 2,
+    "id": 19,
+    "type": "rating"
+  },
+  {
+    "name": "Hotel, Gastronomy & Catering",
+    "parent": 2,
+    "id": 20,
+    "type": "rating"
+  },
+  {
+    "name": "Real Estate,",
+    "parent": 2,
+    "id": 21,
+    "type": "rating"
+  },
+  {
+    "name": "IT & Internet",
+    "parent": 2,
+    "id": 22,
+    "type": "rating"
+  },
+  {
+    "name": "Consumer Goods / Durables",
+    "parent": 2,
+    "id": 23,
+    "type": "rating"
+  },
+  {
+    "name": "Agriculture, Forestry and Fishing, Gardening, Landscape",
+    "parent": 2,
+    "id": 24,
+    "type": "rating"
+  },
+  {
+    "name": "Aerospace",
+    "parent": 2,
+    "id": 25,
+    "type": "rating"
+  },
+  {
+    "name": "Mechanical and Plant Engineering",
+    "parent": 2,
+    "id": 26,
+    "type": "rating"
+  },
+  {
+    "name": "Media (film, radio, TV, publishers)",
+    "parent": 2,
+    "id": 27,
+    "type": "rating"
+  },
+  {
+    "name": "Medical Technology",
+    "parent": 2,
+    "id": 28,
+    "type": "rating"
+  },
+  {
+    "name": "Metal Industry",
+    "parent": 2,
+    "id": 29,
+    "type": "rating"
+  },
+  {
+    "name": "Food & Beverage",
+    "parent": 2,
+    "id": 30,
+    "type": "rating"
+  },
+  {
+    "name": "Public Service & associations",
+    "parent": 2,
+    "id": 31,
+    "type": "rating"
+  },
+  {
+    "name": "Personnel Services",
+    "parent": 2,
+    "id": 32,
+    "type": "rating"
+  },
+  {
+    "name": "Pharmaceutical Industry",
+    "parent": 2,
+    "id": 33,
+    "type": "rating"
+  },
+  {
+    "name": "other Industries",
+    "parent": 2,
+    "id": 34,
+    "type": "rating"
+  },
+  {
+    "name": "other Services",
+    "parent": 2,
+    "id": 35,
+    "type": "rating"
+  },
+  {
+    "name": "Other Manufacturing Industry",
+    "parent": 2,
+    "id": 36,
+    "type": "rating"
+  },
+  {
+    "name": "Telecommunications",
+    "parent": 2,
+    "id": 37,
+    "type": "rating"
+  },
+  {
+    "name": "Textiles, Clothing & Leather goods",
+    "parent": 2,
+    "id": 38,
+    "type": "rating"
+  },
+  {
+    "name": "Transport & Logistics",
+    "parent": 2,
+    "id": 39,
+    "type": "rating"
+  },
+  {
+    "name": "Management Consultancy, Auditor, Law",
+    "parent": 2,
+    "id": 40,
+    "type": "rating"
+  },
+  {
+    "name": "Insurance",
+    "parent": 2,
+    "id": 41,
+    "type": "rating"
+  },
+  {
+    "name": "Science and Research",
+    "parent": 2,
+    "id": 42,
+    "type": "rating"
+  },
+  {
+    "name": "B. Skills",
+    "parent": null,
+    "id": 43,
+    "type": "rating"
+  },
+  {
+    "name": "Engineers and Technical professions",
+    "parent": 43,
+    "id": 44,
+    "type": "rating"
+  },
+  {
+    "name": "B.1 Skills",
+    "parent": 44,
+    "id": 45,
+    "type": "rating"
+  },
+  {
+    "name": "Automation technology",
+    "parent": 45,
+    "id": 46,
+    "type": "rating"
+  },
+  {
+    "name": "Construction Sector",
+    "parent": 45,
+    "id": 47,
+    "type": "rating"
+  },
+  {
+    "name": "B.1.02 Skill Detail 2 - Standards",
+    "parent": 47,
+    "id": 48,
+    "type": "rating"
+  },
+  {
+    "name": "Design Rules",
+    "parent": 48,
+    "id": 49,
+    "type": "rating"
+  },
+  {
+    "name": "Manufacturing engineering",
+    "parent": 45,
+    "id": 50,
+    "type": "rating"
+  },
+  {
+    "name": "Building, supply, security technology",
+    "parent": 45,
+    "id": 51,
+    "type": "rating"
+  },
+  {
+    "name": "Construction, visualization",
+    "parent": 45,
+    "id": 52,
+    "type": "rating"
+  },
+  {
+    "name": "Plastics technology",
+    "parent": 45,
+    "id": 53,
+    "type": "rating"
+  },
+  {
+    "name": "Management, team management",
+    "parent": 45,
+    "id": 54,
+    "type": "rating"
+  },
+  {
+    "name": "Aerospace Engineering",
+    "parent": 45,
+    "id": 55,
+    "type": "rating"
+  },
+  {
+    "name": "B.1.02 Skill Detail 2 - Standards",
+    "parent": 55,
+    "id": 56,
+    "type": "rating"
+  },
+  {
+    "name": "ATA Chapter",
+    "parent": 56,
+    "id": 57,
+    "type": "rating"
+  },
+  {
+    "name": "ISO EN\u00a0 9100 (Aerospace)",
+    "parent": 56,
+    "id": 58,
+    "type": "rating"
+  },
+  {
+    "name": "B.1.03 Skill Detail 2 - Expertises",
+    "parent": 55,
+    "id": 59,
+    "type": "rating"
+  },
+  {
+    "name": "Aircraft Design",
+    "parent": 59,
+    "id": 60,
+    "type": "rating"
+  },
+  {
+    "name": "B.1.04 Skill Detail 2 - Tools",
+    "parent": 55,
+    "id": 61,
+    "type": "rating"
+  },
+  {
+    "name": "Pro-E",
+    "parent": 61,
+    "id": 62,
+    "type": "rating"
+  },
+  {
+    "name": "Siemens NX",
+    "parent": 61,
+    "id": 63,
+    "type": "rating"
+  },
+  {
+    "name": "CATIA V4",
+    "parent": 61,
+    "id": 64,
+    "type": "rating"
+  },
+  {
+    "name": "CATIA V5",
+    "parent": 61,
+    "id": 65,
+    "type": "rating"
+  },
+  {
+    "name": "Patran",
+    "parent": 61,
+    "id": 66,
+    "type": "rating"
+  },
+  {
+    "name": "Nastran",
+    "parent": 61,
+    "id": 67,
+    "type": "rating"
+  },
+  {
+    "name": "Matlab",
+    "parent": 61,
+    "id": 68,
+    "type": "rating"
+  },
+  {
+    "name": "Mechanical engineering",
+    "parent": 45,
+    "id": 69,
+    "type": "rating"
+  },
+  {
+    "name": "Materials science",
+    "parent": 45,
+    "id": 70,
+    "type": "rating"
+  },
+  {
+    "name": "Mechatronics",
+    "parent": 45,
+    "id": 71,
+    "type": "rating"
+  },
+  {
+    "name": "Medical technology",
+    "parent": 45,
+    "id": 72,
+    "type": "rating"
+  },
+  {
+    "name": "Opticians, acousticians",
+    "parent": 45,
+    "id": 73,
+    "type": "rating"
+  },
+  {
+    "name": "Project management",
+    "parent": 45,
+    "id": 74,
+    "type": "rating"
+  },
+  {
+    "name": "B.1.05 Skill Detail 2 - Expertise",
+    "parent": 74,
+    "id": 75,
+    "type": "rating"
+  },
+  {
+    "name": "Project Management",
+    "parent": 75,
+    "id": 76,
+    "type": "rating"
+  },
+  {
+    "name": "Quality Management",
+    "parent": 75,
+    "id": 77,
+    "type": "rating"
+  },
+  {
+    "name": "Configuration Management",
+    "parent": 75,
+    "id": 78,
+    "type": "rating"
+  },
+  {
+    "name": "Problemm Management",
+    "parent": 75,
+    "id": 79,
+    "type": "rating"
+  },
+  {
+    "name": "Change Management",
+    "parent": 75,
+    "id": 80,
+    "type": "rating"
+  },
+  {
+    "name": "Risk Management",
+    "parent": 75,
+    "id": 81,
+    "type": "rating"
+  },
+  {
+    "name": "Programm Management",
+    "parent": 75,
+    "id": 82,
+    "type": "rating"
+  },
+  {
+    "name": "Portfolio Management",
+    "parent": 75,
+    "id": 83,
+    "type": "rating"
+  },
+  {
+    "name": "B.1.06 Skill Detail 2 - Certificates",
+    "parent": 74,
+    "id": 84,
+    "type": "rating"
+  },
+  {
+    "name": "GPM IPMA Certification Basis Certificate",
+    "parent": 84,
+    "id": 85,
+    "type": "rating"
+  },
+  {
+    "name": "GPM IPMA Certification Level D",
+    "parent": 84,
+    "id": 86,
+    "type": "rating"
+  },
+  {
+    "name": "GPM IPMA Certification Level C",
+    "parent": 84,
+    "id": 87,
+    "type": "rating"
+  },
+  {
+    "name": "GPM IPMA Certification Level B",
+    "parent": 84,
+    "id": 88,
+    "type": "rating"
+  },
+  {
+    "name": "GPM IPMA Certification Level A",
+    "parent": 84,
+    "id": 89,
+    "type": "rating"
+  },
+  {
+    "name": "PMI CAPM Certification",
+    "parent": 84,
+    "id": 90,
+    "type": "rating"
+  },
+  {
+    "name": "PMI PMP Certification",
+    "parent": 84,
+    "id": 91,
+    "type": "rating"
+  },
+  {
+    "name": "Prince 2 Certification",
+    "parent": 84,
+    "id": 92,
+    "type": "rating"
+  },
+  {
+    "name": "B.1.07 Skill Detail 2 - Tools",
+    "parent": 74,
+    "id": 93,
+    "type": "rating"
+  },
+  {
+    "name": "MS Project",
+    "parent": 93,
+    "id": 94,
+    "type": "rating"
+  },
+  {
+    "name": "C-Place",
+    "parent": 93,
+    "id": 95,
+    "type": "rating"
+  },
+  {
+    "name": "Project Libre",
+    "parent": 93,
+    "id": 96,
+    "type": "rating"
+  },
+  {
+    "name": "Process management",
+    "parent": 45,
+    "id": 97,
+    "type": "rating"
+  },
+  {
+    "name": "Quality management",
+    "parent": 45,
+    "id": 98,
+    "type": "rating"
+  },
+  {
+    "name": "Service engineer",
+    "parent": 45,
+    "id": 99,
+    "type": "rating"
+  },
+  {
+    "name": "Technical documentation",
+    "parent": 45,
+    "id": 100,
+    "type": "rating"
+  },
+  {
+    "name": "Technical draftsman, draftsman",
+    "parent": 45,
+    "id": 101,
+    "type": "rating"
+  },
+  {
+    "name": "Event technology",
+    "parent": 45,
+    "id": 102,
+    "type": "rating"
+  },
+  {
+    "name": "Process technology",
+    "parent": 45,
+    "id": 103,
+    "type": "rating"
+  },
+  {
+    "name": "Sales engineer",
+    "parent": 45,
+    "id": 104,
+    "type": "rating"
+  },
+  {
+    "name": "Industrial engineer",
+    "parent": 45,
+    "id": 105,
+    "type": "rating"
+  },
+  {
+    "name": "Dental technology",
+    "parent": 45,
+    "id": 106,
+    "type": "rating"
+  },
+  {
+    "name": "Others: engineers and technical professions",
+    "parent": 45,
+    "id": 107,
+    "type": "rating"
+  },
+  {
+    "name": "Chemical engineering",
+    "parent": 45,
+    "id": 108,
+    "type": "rating"
+  },
+  {
+    "name": "Electrical engineering, electronics",
+    "parent": 45,
+    "id": 109,
+    "type": "rating"
+  },
+  {
+    "name": "Energy and environmental technology",
+    "parent": 45,
+    "id": 110,
+    "type": "rating"
+  },
+  {
+    "name": "Development",
+    "parent": 45,
+    "id": 111,
+    "type": "rating"
+  },
+  {
+    "name": "Automotive",
+    "parent": 45,
+    "id": 112,
+    "type": "rating"
+  },
+  {
+    "name": "B.1.08 Skill Detail 2 - Quality SW Auto",
+    "parent": 112,
+    "id": 113,
+    "type": "rating"
+  },
+  {
+    "name": "ISO 26262-1",
+    "parent": 113,
+    "id": 114,
+    "type": "rating"
+  },
+  {
+    "name": "ISO 26262-2",
+    "parent": 113,
+    "id": 115,
+    "type": "rating"
+  },
+  {
+    "name": "ISO 26262-3",
+    "parent": 113,
+    "id": 116,
+    "type": "rating"
+  },
+  {
+    "name": "ISO 26262-4",
+    "parent": 113,
+    "id": 117,
+    "type": "rating"
+  },
+  {
+    "name": "ISO 26262-5",
+    "parent": 113,
+    "id": 118,
+    "type": "rating"
+  },
+  {
+    "name": "ISO 26262-6",
+    "parent": 113,
+    "id": 119,
+    "type": "rating"
+  },
+  {
+    "name": "ISO 26262-7",
+    "parent": 113,
+    "id": 120,
+    "type": "rating"
+  },
+  {
+    "name": "ISO 26262-8",
+    "parent": 113,
+    "id": 121,
+    "type": "rating"
+  },
+  {
+    "name": "ISO 26262-9",
+    "parent": 113,
+    "id": 122,
+    "type": "rating"
+  },
+  {
+    "name": "ISO 9001, TS 16949",
+    "parent": 113,
+    "id": 123,
+    "type": "rating"
+  },
+  {
+    "name": "ISO EN\u00a0 9100 (Aerospace)",
+    "parent": 113,
+    "id": 124,
+    "type": "rating"
+  },
+  {
+    "name": "ISO 25010 (Qualit\u00e4tsnorm)",
+    "parent": 113,
+    "id": 125,
+    "type": "rating"
+  },
+  {
+    "name": "ISO/IEC/IEEE 29119 (Testnorm)",
+    "parent": 113,
+    "id": 126,
+    "type": "rating"
+  },
+  {
+    "name": "Automotive SPICE",
+    "parent": 113,
+    "id": 127,
+    "type": "rating"
+  },
+  {
+    "name": "ASPICE Provisional Assessor",
+    "parent": 113,
+    "id": 128,
+    "type": "rating"
+  },
+  {
+    "name": "ASPICE Competent Assessor",
+    "parent": 113,
+    "id": 129,
+    "type": "rating"
+  },
+  {
+    "name": "B.1.09 Skill Detail 2 - SW Automotive",
+    "parent": 112,
+    "id": 130,
+    "type": "rating"
+  },
+  {
+    "name": "Energy Management",
+    "parent": 130,
+    "id": 131,
+    "type": "rating"
+  },
+  {
+    "name": "B.1.10 Skill Detail 2 - Automotive Standards",
+    "parent": 112,
+    "id": 132,
+    "type": "rating"
+  },
+  {
+    "name": "VW - PEP",
+    "parent": 132,
+    "id": 133,
+    "type": "rating"
+  },
+  {
+    "name": "Autosar",
+    "parent": 132,
+    "id": 134,
+    "type": "rating"
+  },
+  {
+    "name": "B.1.11 Skill Detail 2 - Automotive Special Knowleadge",
+    "parent": 112,
+    "id": 135,
+    "type": "rating"
+  },
+  {
+    "name": "VW Pr\u00fcfgel\u00e4nde",
+    "parent": 135,
+    "id": 136,
+    "type": "rating"
+  },
+  {
+    "name": "E-Mobility",
+    "parent": 135,
+    "id": 137,
+    "type": "rating"
+  },
+  {
+    "name": "Battery Management",
+    "parent": 135,
+    "id": 138,
+    "type": "rating"
+  },
+  {
+    "name": "B.2 Skills Requirements Engineering",
+    "parent": 45,
+    "id": 139,
+    "type": "rating"
+  },
+  {
+    "name": "Requirements Engineering",
+    "parent": 139,
+    "id": 140,
+    "type": "rating"
+  },
+  {
+    "name": "IREB Foundation",
+    "parent": 139,
+    "id": 141,
+    "type": "rating"
+  },
+  {
+    "name": "IREB Professional",
+    "parent": 139,
+    "id": 142,
+    "type": "rating"
+  },
+  {
+    "name": "B.3 Skills SW Development",
+    "parent": 45,
+    "id": 143,
+    "type": "rating"
+  },
+  {
+    "name": "Software Modelling (Matlab/Simulink), Guideline",
+    "parent": 143,
+    "id": 144,
+    "type": "rating"
+  },
+  {
+    "name": "B.4 Skills SW Testing",
+    "parent": 45,
+    "id": 145,
+    "type": "rating"
+  },
+  {
+    "name": "Basis-CAN Knowledge",
+    "parent": 145,
+    "id": 146,
+    "type": "rating"
+  },
+  {
+    "name": "Basis-LIN Knowledge",
+    "parent": 145,
+    "id": 147,
+    "type": "rating"
+  },
+  {
+    "name": "Basis-Data acquistion ",
+    "parent": 145,
+    "id": 148,
+    "type": "rating"
+  },
+  {
+    "name": "Basis-TestCase Design",
+    "parent": 145,
+    "id": 149,
+    "type": "rating"
+  },
+  {
+    "name": "Basis-Test Automatisation",
+    "parent": 145,
+    "id": 150,
+    "type": "rating"
+  },
+  {
+    "name": "Basis-Trace Analysis",
+    "parent": 145,
+    "id": 151,
+    "type": "rating"
+  },
+  {
+    "name": "Basis-Test Management",
+    "parent": 145,
+    "id": 152,
+    "type": "rating"
+  },
+  {
+    "name": "Basis-Knowledge about Standards and regulations (e.g. LV124, VW80000, VW80300, \u2026)",
+    "parent": 145,
+    "id": 153,
+    "type": "rating"
+  },
+  {
+    "name": "Basis-HW Knowledge ",
+    "parent": 145,
+    "id": 154,
+    "type": "rating"
+  },
+  {
+    "name": "Basis-Craftmanship skills",
+    "parent": 145,
+    "id": 155,
+    "type": "rating"
+  },
+  {
+    "name": "Vector Toolchain-CANoe",
+    "parent": 145,
+    "id": 156,
+    "type": "rating"
+  },
+  {
+    "name": "Vector Toolchain-CANape",
+    "parent": 145,
+    "id": 157,
+    "type": "rating"
+  },
+  {
+    "name": "Vector Toolchain-CANalyzer",
+    "parent": 145,
+    "id": 158,
+    "type": "rating"
+  },
+  {
+    "name": "Vector Toolchain-CAPL",
+    "parent": 145,
+    "id": 159,
+    "type": "rating"
+  },
+  {
+    "name": "Vector Toolchain-vTestStudio",
+    "parent": 145,
+    "id": 160,
+    "type": "rating"
+  },
+  {
+    "name": "Vector Toolchain-vFlash",
+    "parent": 145,
+    "id": 161,
+    "type": "rating"
+  },
+  {
+    "name": "Vector Toolchain-",
+    "parent": 145,
+    "id": 162,
+    "type": "rating"
+  },
+  {
+    "name": "NI_Toolchain-Diadem",
+    "parent": 145,
+    "id": 163,
+    "type": "rating"
+  },
+  {
+    "name": "NI_Toolchain-NI LabView",
+    "parent": 145,
+    "id": 164,
+    "type": "rating"
+  },
+  {
+    "name": "NI_Toolchain-NI TestStand",
+    "parent": 145,
+    "id": 165,
+    "type": "rating"
+  },
+  {
+    "name": "NI_Toolchain-NI Veristand",
+    "parent": 145,
+    "id": 166,
+    "type": "rating"
+  },
+  {
+    "name": "ISTQB, CTFL Foundation",
+    "parent": 145,
+    "id": 167,
+    "type": "rating"
+  },
+  {
+    "name": "ISTQB, CTFL Professional",
+    "parent": 145,
+    "id": 168,
+    "type": "rating"
+  },
+  {
+    "name": "MAAB",
+    "parent": 145,
+    "id": 169,
+    "type": "rating"
+  },
+  {
+    "name": "B.5 Skills SW Tools",
+    "parent": 45,
+    "id": 170,
+    "type": "rating"
+  },
+  {
+    "name": "C++",
+    "parent": 170,
+    "id": 171,
+    "type": "rating"
+  },
+  {
+    "name": "CANape, CANalyzer",
+    "parent": 170,
+    "id": 172,
+    "type": "rating"
+  },
+  {
+    "name": "Code Quality Analyzer (CQA) ",
+    "parent": 170,
+    "id": 173,
+    "type": "rating"
+  },
+  {
+    "name": "Docker ",
+    "parent": 170,
+    "id": 174,
+    "type": "rating"
+  },
+  {
+    "name": "DOORS",
+    "parent": 170,
+    "id": 175,
+    "type": "rating"
+  },
+  {
+    "name": "DOORS DXL",
+    "parent": 170,
+    "id": 176,
+    "type": "rating"
+  },
+  {
+    "name": "Eclipse CDT",
+    "parent": 170,
+    "id": 177,
+    "type": "rating"
+  },
+  {
+    "name": "Enterprise Architect",
+    "parent": 170,
+    "id": 178,
+    "type": "rating"
+  },
+  {
+    "name": "Greenhill Toolchain (GHS)",
+    "parent": 170,
+    "id": 179,
+    "type": "rating"
+  },
+  {
+    "name": "Java",
+    "parent": 170,
+    "id": 180,
+    "type": "rating"
+  },
+  {
+    "name": "Jenkins",
+    "parent": 170,
+    "id": 181,
+    "type": "rating"
+  },
+  {
+    "name": "Lint, Polyspace, Tessy",
+    "parent": 170,
+    "id": 182,
+    "type": "rating"
+  },
+  {
+    "name": "Matlab Simulink",
+    "parent": 170,
+    "id": 183,
+    "type": "rating"
+  },
+  {
+    "name": "Misra C",
+    "parent": 170,
+    "id": 184,
+    "type": "rating"
+  },
+  {
+    "name": "MXAM",
+    "parent": 170,
+    "id": 185,
+    "type": "rating"
+  },
+  {
+    "name": "MXRAY",
+    "parent": 170,
+    "id": 186,
+    "type": "rating"
+  },
+  {
+    "name": "Python",
+    "parent": 170,
+    "id": 187,
+    "type": "rating"
+  },
+  {
+    "name": "QAC (MISRA)",
+    "parent": 170,
+    "id": 188,
+    "type": "rating"
+  },
+  {
+    "name": "Rhapsody",
+    "parent": 170,
+    "id": 189,
+    "type": "rating"
+  },
+  {
+    "name": "Simulink Check",
+    "parent": 170,
+    "id": 190,
+    "type": "rating"
+  },
+  {
+    "name": "Simulink Design Verifier",
+    "parent": 170,
+    "id": 191,
+    "type": "rating"
+  },
+  {
+    "name": "Stateflow",
+    "parent": 170,
+    "id": 192,
+    "type": "rating"
+  },
+  {
+    "name": "SVN",
+    "parent": 170,
+    "id": 193,
+    "type": "rating"
+  },
+  {
+    "name": "Targetlink 3.1",
+    "parent": 170,
+    "id": 194,
+    "type": "rating"
+  },
+  {
+    "name": "EXAM",
+    "parent": 170,
+    "id": 195,
+    "type": "rating"
+  },
+  {
+    "name": "ODIS (VW)",
+    "parent": 170,
+    "id": 196,
+    "type": "rating"
+  },
+  {
+    "name": "KPM Web (VW)",
+    "parent": 170,
+    "id": 197,
+    "type": "rating"
+  },
+  {
+    "name": "Jira",
+    "parent": 170,
+    "id": 198,
+    "type": "rating"
+  },
+  {
+    "name": "Confluence",
+    "parent": 170,
+    "id": 199,
+    "type": "rating"
+  },
+  {
+    "name": "Distribution and sales",
+    "parent": 43,
+    "id": 200,
+    "type": "rating"
+  },
+  {
+    "name": "Marketing and communication",
+    "parent": 43,
+    "id": 201,
+    "type": "rating"
+  },
+  {
+    "name": "Finances",
+    "parent": 43,
+    "id": 202,
+    "type": "rating"
+  },
+  {
+    "name": "Banks, financial service providers and insurance companies",
+    "parent": 43,
+    "id": 203,
+    "type": "rating"
+  },
+  {
+    "name": "Purchasing, materials management and logistics",
+    "parent": 43,
+    "id": 204,
+    "type": "rating"
+  },
+  {
+    "name": "Human resources",
+    "parent": 43,
+    "id": 205,
+    "type": "rating"
+  },
+  {
+    "name": "Administration and secretariat",
+    "parent": 43,
+    "id": 206,
+    "type": "rating"
+  },
+  {
+    "name": "Science and research",
+    "parent": 43,
+    "id": 207,
+    "type": "rating"
+  },
+  {
+    "name": "Medicine",
+    "parent": 43,
+    "id": 208,
+    "type": "rating"
+  },
+  {
+    "name": "Care, therapy and assistance",
+    "parent": 43,
+    "id": 209,
+    "type": "rating"
+  },
+  {
+    "name": "Education and Social",
+    "parent": 43,
+    "id": 210,
+    "type": "rating"
+  },
+  {
+    "name": "Public service",
+    "parent": 43,
+    "id": 211,
+    "type": "rating"
+  },
+  {
+    "name": "Law",
+    "parent": 43,
+    "id": 212,
+    "type": "rating"
+  },
+  {
+    "name": "Design, layout and architecture",
+    "parent": 43,
+    "id": 213,
+    "type": "rating"
+  },
+  {
+    "name": "Craft, service and manufacturing",
+    "parent": 43,
+    "id": 214,
+    "type": "rating"
+  },
+  {
+    "name": "Executives",
+    "parent": 43,
+    "id": 215,
+    "type": "rating"
+  },
+  {
+    "name": "C. Generic Tools & Certifications",
+    "parent": null,
+    "id": 216,
+    "type": "rating"
+  },
+  {
+    "name": "Engineers and technical professions",
+    "parent": 216,
+    "id": 217,
+    "type": "rating"
+  },
+  {
+    "name": "C.1 Generic Tools & Certifications",
+    "parent": 217,
+    "id": 218,
+    "type": "rating"
+  },
+  {
+    "name": "EFK (Elektrofachkraft)",
+    "parent": 218,
+    "id": 219,
+    "type": "rating"
+  },
+  {
+    "name": "IT",
+    "parent": 216,
+    "id": 220,
+    "type": "rating"
+  },
+  {
+    "name": "Distribution and sales",
+    "parent": 216,
+    "id": 221,
+    "type": "rating"
+  },
+  {
+    "name": "Marketing and communication",
+    "parent": 216,
+    "id": 222,
+    "type": "rating"
+  },
+  {
+    "name": "Finances",
+    "parent": 216,
+    "id": 223,
+    "type": "rating"
+  },
+  {
+    "name": "Banks, financial service providers and insurance companies",
+    "parent": 216,
+    "id": 224,
+    "type": "rating"
+  },
+  {
+    "name": "Purchasing, materials management and logistics",
+    "parent": 216,
+    "id": 225,
+    "type": "rating"
+  },
+  {
+    "name": "Human Resources",
+    "parent": 216,
+    "id": 226,
+    "type": "rating"
+  },
+  {
+    "name": "Administration and secretariat",
+    "parent": 216,
+    "id": 227,
+    "type": "rating"
+  },
+  {
+    "name": "C.2 Generic Tools & Certifications",
+    "parent": 227,
+    "id": 228,
+    "type": "rating"
+  },
+  {
+    "name": "Office Package (Excel, PPT, Outlook)",
+    "parent": 228,
+    "id": 229,
+    "type": "rating"
+  },
+  {
+    "name": "ACCESS",
+    "parent": 228,
+    "id": 230,
+    "type": "rating"
+  },
+  {
+    "name": "MS Visio",
+    "parent": 228,
+    "id": 231,
+    "type": "rating"
+  },
+  {
+    "name": "C.3 Generic Tools ",
+    "parent": 227,
+    "id": 232,
+    "type": "rating"
+  },
+  {
+    "name": "Drivers Licence",
+    "parent": 232,
+    "id": 233,
+    "type": "rating"
+  },
+  {
+    "name": "Science and research",
+    "parent": 216,
+    "id": 234,
+    "type": "rating"
+  },
+  {
+    "name": "Medicine",
+    "parent": 216,
+    "id": 235,
+    "type": "rating"
+  },
+  {
+    "name": "Care, therapy and assistance",
+    "parent": 216,
+    "id": 236,
+    "type": "rating"
+  },
+  {
+    "name": "Education and social",
+    "parent": 216,
+    "id": 237,
+    "type": "rating"
+  },
+  {
+    "name": "Public service",
+    "parent": 216,
+    "id": 238,
+    "type": "rating"
+  },
+  {
+    "name": "Law",
+    "parent": 216,
+    "id": 239,
+    "type": "rating"
+  },
+  {
+    "name": "Design, layout and architecture",
+    "parent": 216,
+    "id": 240,
+    "type": "rating"
+  },
+  {
+    "name": "Craft, service and manufacturing",
+    "parent": 216,
+    "id": 241,
+    "type": "rating"
+  },
+  {
+    "name": "Executives",
+    "parent": 216,
+    "id": 242,
+    "type": "rating"
+  },
+  {
+    "name": "C.4 Generic Tools & Certifications",
+    "parent": 242,
+    "id": 243,
+    "type": "rating"
+  },
+  {
+    "name": "Automation technology",
+    "parent": 243,
+    "id": 244,
+    "type": "rating"
+  },
+  {
+    "name": "Construction Sector",
+    "parent": 243,
+    "id": 245,
+    "type": "rating"
+  },
+  {
+    "name": "Chemical engineering",
+    "parent": 243,
+    "id": 246,
+    "type": "rating"
+  },
+  {
+    "name": "Electrical engineering, electronics",
+    "parent": 243,
+    "id": 247,
+    "type": "rating"
+  },
+  {
+    "name": "Energy and environmental technology",
+    "parent": 243,
+    "id": 248,
+    "type": "rating"
+  },
+  {
+    "name": "Development",
+    "parent": 243,
+    "id": 249,
+    "type": "rating"
+  },
+  {
+    "name": "Vehicle technology",
+    "parent": 243,
+    "id": 250,
+    "type": "rating"
+  },
+  {
+    "name": "manufacturing engineering",
+    "parent": 243,
+    "id": 251,
+    "type": "rating"
+  },
+  {
+    "name": "Building, supply, security technology",
+    "parent": 243,
+    "id": 252,
+    "type": "rating"
+  },
+  {
+    "name": "Construction, visualization",
+    "parent": 243,
+    "id": 253,
+    "type": "rating"
+  },
+  {
+    "name": "Plastics technology",
+    "parent": 243,
+    "id": 254,
+    "type": "rating"
+  },
+  {
+    "name": "Management, team management",
+    "parent": 243,
+    "id": 255,
+    "type": "rating"
+  },
+  {
+    "name": "Aerospace Engineering",
+    "parent": 243,
+    "id": 256,
+    "type": "rating"
+  },
+  {
+    "name": "Mechanical engineering",
+    "parent": 243,
+    "id": 257,
+    "type": "rating"
+  },
+  {
+    "name": "Materials science",
+    "parent": 243,
+    "id": 258,
+    "type": "rating"
+  },
+  {
+    "name": "Mechatronics",
+    "parent": 243,
+    "id": 259,
+    "type": "rating"
+  },
+  {
+    "name": "Medical technology",
+    "parent": 243,
+    "id": 260,
+    "type": "rating"
+  },
+  {
+    "name": "Opticians, acousticians",
+    "parent": 243,
+    "id": 261,
+    "type": "rating"
+  },
+  {
+    "name": "Project management",
+    "parent": 243,
+    "id": 262,
+    "type": "rating"
+  },
+  {
+    "name": "Process management",
+    "parent": 243,
+    "id": 263,
+    "type": "rating"
+  },
+  {
+    "name": "Quality management",
+    "parent": 243,
+    "id": 264,
+    "type": "rating"
+  },
+  {
+    "name": "service engineer",
+    "parent": 243,
+    "id": 265,
+    "type": "rating"
+  },
+  {
+    "name": "Technical Documentation",
+    "parent": 243,
+    "id": 266,
+    "type": "rating"
+  },
+  {
+    "name": "Technical draftsman, draftsman",
+    "parent": 243,
+    "id": 267,
+    "type": "rating"
+  },
+  {
+    "name": "Event technology",
+    "parent": 243,
+    "id": 268,
+    "type": "rating"
+  },
+  {
+    "name": "process technology",
+    "parent": 243,
+    "id": 269,
+    "type": "rating"
+  },
+  {
+    "name": "Sales engineer",
+    "parent": 243,
+    "id": 270,
+    "type": "rating"
+  },
+  {
+    "name": "Industrial engineer",
+    "parent": 243,
+    "id": 271,
+    "type": "rating"
+  },
+  {
+    "name": "Dental technology",
+    "parent": 243,
+    "id": 272,
+    "type": "rating"
+  },
+  {
+    "name": "Others: engineers and technical professions",
+    "parent": 243,
+    "id": 273,
+    "type": "rating"
+  },
+  {
+    "name": "D. Position",
+    "parent": null,
+    "id": 274,
+    "type": "rating"
+  },
+  {
+    "name": "Accounting jobs",
+    "parent": 274,
+    "id": 275,
+    "type": "rating"
+  },
+  {
+    "name": "Administration jobs",
+    "parent": 274,
+    "id": 276,
+    "type": "rating"
+  },
+  {
+    "name": "Architecture and design jobs",
+    "parent": 274,
+    "id": 277,
+    "type": "rating"
+  },
+  {
+    "name": "Training jobs",
+    "parent": 274,
+    "id": 278,
+    "type": "rating"
+  },
+  {
+    "name": "Automotive jobs",
+    "parent": 274,
+    "id": 279,
+    "type": "rating"
+  },
+  {
+    "name": "Construction jobs",
+    "parent": 274,
+    "id": 280,
+    "type": "rating"
+  },
+  {
+    "name": "Education and Social Jobs",
+    "parent": 274,
+    "id": 281,
+    "type": "rating"
+  },
+  {
+    "name": "Consulting jobs",
+    "parent": 274,
+    "id": 282,
+    "type": "rating"
+  },
+  {
+    "name": "Controlling jobs",
+    "parent": 274,
+    "id": 283,
+    "type": "rating"
+  },
+  {
+    "name": "Service jobs",
+    "parent": 274,
+    "id": 284,
+    "type": "rating"
+  },
+  {
+    "name": "Purchasing jobs",
+    "parent": 274,
+    "id": 285,
+    "type": "rating"
+  },
+  {
+    "name": "Retail jobs",
+    "parent": 274,
+    "id": 286,
+    "type": "rating"
+  },
+  {
+    "name": "Finance jobs",
+    "parent": 274,
+    "id": 287,
+    "type": "rating"
+  },
+  {
+    "name": "Research jobs",
+    "parent": 274,
+    "id": 288,
+    "type": "rating"
+  },
+  {
+    "name": "Gastronomy and tourism jobs",
+    "parent": 274,
+    "id": 289,
+    "type": "rating"
+  },
+  {
+    "name": "Health care jobs",
+    "parent": 274,
+    "id": 290,
+    "type": "rating"
+  },
+  {
+    "name": "Retail and Retail jobs",
+    "parent": 274,
+    "id": 291,
+    "type": "rating"
+  },
+  {
+    "name": "Craft jobs",
+    "parent": 274,
+    "id": 292,
+    "type": "rating"
+  },
+  {
+    "name": "Real estate jobs",
+    "parent": 274,
+    "id": 293,
+    "type": "rating"
+  },
+  {
+    "name": "Industry and production jobs",
+    "parent": 274,
+    "id": 294,
+    "type": "rating"
+  },
+  {
+    "name": "Engineering jobs",
+    "parent": 274,
+    "id": 295,
+    "type": "rating"
+  },
+  {
+    "name": "IT jobs",
+    "parent": 274,
+    "id": 296,
+    "type": "rating"
+  },
+  {
+    "name": "Culture jobs",
+    "parent": 274,
+    "id": 297,
+    "type": "rating"
+  },
+  {
+    "name": "Customer care jobs",
+    "parent": 274,
+    "id": 298,
+    "type": "rating"
+  },
+  {
+    "name": "Agriculture jobs",
+    "parent": 274,
+    "id": 299,
+    "type": "rating"
+  },
+  {
+    "name": "Logistics jobs",
+    "parent": 274,
+    "id": 300,
+    "type": "rating"
+  },
+  {
+    "name": "Management jobs",
+    "parent": 274,
+    "id": 301,
+    "type": "rating"
+  },
+  {
+    "name": "Marketing Jobs",
+    "parent": 274,
+    "id": 302,
+    "type": "rating"
+  },
+  {
+    "name": "Media jobs",
+    "parent": 274,
+    "id": 303,
+    "type": "rating"
+  },
+  {
+    "name": "Science and research jobs",
+    "parent": 274,
+    "id": 304,
+    "type": "rating"
+  },
+  {
+    "name": "Human Resources Jobs",
+    "parent": 274,
+    "id": 305,
+    "type": "rating"
+  },
+  {
+    "name": "Production jobs",
+    "parent": 274,
+    "id": 306,
+    "type": "rating"
+  },
+  {
+    "name": "Project management jobs",
+    "parent": 274,
+    "id": 307,
+    "type": "rating"
+  },
+  {
+    "name": "Quality jobs",
+    "parent": 274,
+    "id": 308,
+    "type": "rating"
+  },
+  {
+    "name": "Law jobs",
+    "parent": 274,
+    "id": 309,
+    "type": "rating"
+  },
+  {
+    "name": "Clerk jobs",
+    "parent": 274,
+    "id": 310,
+    "type": "rating"
+  },
+  {
+    "name": "Security jobs",
+    "parent": 274,
+    "id": 311,
+    "type": "rating"
+  },
+  {
+    "name": "Taxation jobs",
+    "parent": 274,
+    "id": 312,
+    "type": "rating"
+  },
+  {
+    "name": "Technology jobs",
+    "parent": 274,
+    "id": 313,
+    "type": "rating"
+  },
+  {
+    "name": "Part time jobs",
+    "parent": 274,
+    "id": 314,
+    "type": "rating"
+  },
+  {
+    "name": "Tourism jobs",
+    "parent": 274,
+    "id": 315,
+    "type": "rating"
+  },
+  {
+    "name": "Tourism and catering jobs",
+    "parent": 274,
+    "id": 316,
+    "type": "rating"
+  },
+  {
+    "name": "Transport and logistics jobs",
+    "parent": 274,
+    "id": 317,
+    "type": "rating"
+  },
+  {
+    "name": "Environment jobs",
+    "parent": 274,
+    "id": 318,
+    "type": "rating"
+  },
+  {
+    "name": "Insurance jobs",
+    "parent": 274,
+    "id": 319,
+    "type": "rating"
+  },
+  {
+    "name": "Sales jobs",
+    "parent": 274,
+    "id": 320,
+    "type": "rating"
+  },
+  {
+    "name": "D.1. Job Area Detail",
+    "parent": 320,
+    "id": 321,
+    "type": "rating"
+  },
+  {
+    "name": "Accounting jobs",
+    "parent": 321,
+    "id": 322,
+    "type": "rating"
+  },
+  {
+    "name": "Treasury Jobs Consultant",
+    "parent": 321,
+    "id": 323,
+    "type": "rating"
+  },
+  {
+    "name": "Chief Accountant Jobs",
+    "parent": 321,
+    "id": 324,
+    "type": "rating"
+  },
+  {
+    "name": "Cost Accountant Jobs",
+    "parent": 321,
+    "id": 325,
+    "type": "rating"
+  },
+  {
+    "name": "Accounts Receivable Jobs",
+    "parent": 321,
+    "id": 326,
+    "type": "rating"
+  },
+  {
+    "name": "Energy billing jobs",
+    "parent": 321,
+    "id": 327,
+    "type": "rating"
+  },
+  {
+    "name": "Fund accounting jobs",
+    "parent": 321,
+    "id": 328,
+    "type": "rating"
+  },
+  {
+    "name": "Group Leader Accounts Receivable Jobs",
+    "parent": 321,
+    "id": 329,
+    "type": "rating"
+  },
+  {
+    "name": "Junior accountant jobs",
+    "parent": 321,
+    "id": 330,
+    "type": "rating"
+  },
+  {
+    "name": "Current accountant jobs",
+    "parent": 321,
+    "id": 331,
+    "type": "rating"
+  },
+  {
+    "name": "Head of Payments Jobs",
+    "parent": 321,
+    "id": 332,
+    "type": "rating"
+  },
+  {
+    "name": "Dunning jobs",
+    "parent": 321,
+    "id": 333,
+    "type": "rating"
+  },
+  {
+    "name": "Portfolio accountant jobs",
+    "parent": 321,
+    "id": 334,
+    "type": "rating"
+  },
+  {
+    "name": "Computer jobs",
+    "parent": 321,
+    "id": 335,
+    "type": "rating"
+  },
+  {
+    "name": "Auditor jobs",
+    "parent": 321,
+    "id": 336,
+    "type": "rating"
+  },
+  {
+    "name": "Deputy Head of Payments Jobs",
+    "parent": 321,
+    "id": 337,
+    "type": "rating"
+  },
+  {
+    "name": "Team Leader Accounting Jobs",
+    "parent": 321,
+    "id": 338,
+    "type": "rating"
+  },
+  {
+    "name": "Team leader order processing jobs",
+    "parent": 321,
+    "id": 339,
+    "type": "rating"
+  },
+  {
+    "name": "Team Leader Accounts Payable Jobs",
+    "parent": 321,
+    "id": 340,
+    "type": "rating"
+  },
+  {
+    "name": "Part time accountant jobs",
+    "parent": 321,
+    "id": 341,
+    "type": "rating"
+  },
+  {
+    "name": "Trustee jobs",
+    "parent": 321,
+    "id": 342,
+    "type": "rating"
+  },
+  {
+    "name": "Payments jobs",
+    "parent": 321,
+    "id": 343,
+    "type": "rating"
+  },
+  {
+    "name": "E. Softskill & Methodes",
+    "parent": null,
+    "id": 344,
+    "type": "rating"
+  },
+  {
+    "name": "E.1. SoftSkills",
+    "parent": 344,
+    "id": 345,
+    "type": "rating"
+  },
+  {
+    "name": "Personality (charisma)",
+    "parent": 345,
+    "id": 346,
+    "type": "rating"
+  },
+  {
+    "name": "Trustworthiness",
+    "parent": 345,
+    "id": 347,
+    "type": "rating"
+  },
+  {
+    "name": "Discernment",
+    "parent": 345,
+    "id": 348,
+    "type": "rating"
+  },
+  {
+    "name": "Analytical and logical thinking",
+    "parent": 345,
+    "id": 349,
+    "type": "rating"
+  },
+  {
+    "name": "Empathy",
+    "parent": 345,
+    "id": 350,
+    "type": "rating"
+  },
+  {
+    "name": "Knowledge of human nature",
+    "parent": 345,
+    "id": 351,
+    "type": "rating"
+  },
+  {
+    "name": "Assertiveness",
+    "parent": 345,
+    "id": 352,
+    "type": "rating"
+  },
+  {
+    "name": "Self-confidence",
+    "parent": 345,
+    "id": 353,
+    "type": "rating"
+  },
+  {
+    "name": "Creativity",
+    "parent": 345,
+    "id": 354,
+    "type": "rating"
+  },
+  {
+    "name": "Fighting spirit",
+    "parent": 345,
+    "id": 355,
+    "type": "rating"
+  },
+  {
+    "name": "Ability to work in a team",
+    "parent": 345,
+    "id": 356,
+    "type": "rating"
+  },
+  {
+    "name": "Willingness to integrate",
+    "parent": 345,
+    "id": 357,
+    "type": "rating"
+  },
+  {
+    "name": "Curiosity",
+    "parent": 345,
+    "id": 358,
+    "type": "rating"
+  },
+  {
+    "name": "Communication behavior",
+    "parent": 345,
+    "id": 359,
+    "type": "rating"
+  },
+  {
+    "name": "(Mental) resilience",
+    "parent": 345,
+    "id": 360,
+    "type": "rating"
+  },
+  {
+    "name": "Manner of courtesy",
+    "parent": 345,
+    "id": 361,
+    "type": "rating"
+  },
+  {
+    "name": "Rhetoric eloquence",
+    "parent": 345,
+    "id": 362,
+    "type": "rating"
+  },
+  {
+    "name": "Motivation, hard work, ambition",
+    "parent": 345,
+    "id": 363,
+    "type": "rating"
+  },
+  {
+    "name": "Critical ability",
+    "parent": 345,
+    "id": 364,
+    "type": "rating"
+  },
+  {
+    "name": "Set coordination skills / priorities",
+    "parent": 345,
+    "id": 365,
+    "type": "rating"
+  },
+  {
+    "name": "Stress resistance",
+    "parent": 345,
+    "id": 366,
+    "type": "rating"
+  },
+  {
+    "name": "Self-control",
+    "parent": 345,
+    "id": 367,
+    "type": "rating"
+  },
+  {
+    "name": "Self-expression (nervousness before important appointments or public appearances)",
+    "parent": 345,
+    "id": 368,
+    "type": "rating"
+  },
+  {
+    "name": "Cope with conflicts and failures",
+    "parent": 345,
+    "id": 369,
+    "type": "rating"
+  },
+  {
+    "name": "Individual responsibility",
+    "parent": 345,
+    "id": 370,
+    "type": "rating"
+  },
+  {
+    "name": "E.2. Methode Skills",
+    "parent": 344,
+    "id": 371,
+    "type": "rating"
+  },
+  {
+    "name": "Presentational Skills",
+    "parent": 371,
+    "id": 372,
+    "type": "rating"
+  },
+  {
+    "name": "Moderation Skills",
+    "parent": 371,
+    "id": 373,
+    "type": "rating"
+  },
+  {
+    "name": "Negotiation",
+    "parent": 371,
+    "id": 374,
+    "type": "rating"
+  },
+  {
+    "name": "Time management",
+    "parent": 371,
+    "id": 375,
+    "type": "rating"
+  },
+  {
+    "name": "Organizational talent",
+    "parent": 371,
+    "id": 376,
+    "type": "rating"
+  },
+  {
+    "name": "F. Languages",
+    "parent": null,
+    "id": 377,
+    "type": "rating"
+  },
+  {
+    "name": "Mandarin Chinese",
+    "parent": 377,
+    "id": 378,
+    "type": "rating"
+  },
+  {
+    "name": "Hindi",
+    "parent": 377,
+    "id": 379,
+    "type": "rating"
+  },
+  {
+    "name": "Spanish",
+    "parent": 377,
+    "id": 380,
+    "type": "rating"
+  },
+  {
+    "name": "Arabic",
+    "parent": 377,
+    "id": 381,
+    "type": "rating"
+  },
+  {
+    "name": "French",
+    "parent": 377,
+    "id": 382,
+    "type": "rating"
+  },
+  {
+    "name": "Urdu",
+    "parent": 377,
+    "id": 383,
+    "type": "rating"
+  },
+  {
+    "name": "Bengali",
+    "parent": 377,
+    "id": 384,
+    "type": "rating"
+  },
+  {
+    "name": "Russian",
+    "parent": 377,
+    "id": 385,
+    "type": "rating"
+  },
+  {
+    "name": "Portuguese",
+    "parent": 377,
+    "id": 386,
+    "type": "rating"
+  },
+  {
+    "name": "Malay",
+    "parent": 377,
+    "id": 387,
+    "type": "rating"
+  },
+  {
+    "name": "Punjabi",
+    "parent": 377,
+    "id": 388,
+    "type": "rating"
+  },
+  {
+    "name": "German",
+    "parent": 377,
+    "id": 389,
+    "type": "rating"
+  },
+  {
+    "name": "Persian",
+    "parent": 377,
+    "id": 390,
+    "type": "rating"
+  },
+  {
+    "name": "Japanese",
+    "parent": 377,
+    "id": 391,
+    "type": "rating"
+  },
+  {
+    "name": "Swahili",
+    "parent": 377,
+    "id": 392,
+    "type": "rating"
+  },
+  {
+    "name": "Marathi",
+    "parent": 377,
+    "id": 393,
+    "type": "rating"
+  },
+  {
+    "name": "Telugu",
+    "parent": 377,
+    "id": 394,
+    "type": "rating"
+  },
+  {
+    "name": "Wu Chinese",
+    "parent": 377,
+    "id": 395,
+    "type": "rating"
+  },
+  {
+    "name": "Tamil",
+    "parent": 377,
+    "id": 396,
+    "type": "rating"
+  },
+  {
+    "name": "Turkish",
+    "parent": 377,
+    "id": 397,
+    "type": "rating"
+  },
+  {
+    "name": "Vietnamese",
+    "parent": 377,
+    "id": 398,
+    "type": "rating"
+  },
+  {
+    "name": "Korean",
+    "parent": 377,
+    "id": 399,
+    "type": "rating"
+  },
+  {
+    "name": "Cantonese",
+    "parent": 377,
+    "id": 400,
+    "type": "rating"
+  },
+  {
+    "name": "Italian",
+    "parent": 377,
+    "id": 401,
+    "type": "rating"
+  },
+  {
+    "name": "Javanese",
+    "parent": 377,
+    "id": 402,
+    "type": "rating"
+  },
+  {
+    "name": "Hausa",
+    "parent": 377,
+    "id": 403,
+    "type": "rating"
+  },
+  {
+    "name": "Thai",
+    "parent": 377,
+    "id": 404,
+    "type": "rating"
+  },
+  {
+    "name": "Gujarati",
+    "parent": 377,
+    "id": 405,
+    "type": "rating"
+  },
+  {
+    "name": "Bhojpuri",
+    "parent": 377,
+    "id": 406,
+    "type": "rating"
+  },
+  {
+    "name": "G. Education",
+    "parent": null,
+    "id": 407,
+    "type": "binary"
+  },
+  {
+    "name": "PhD / Dr",
+    "parent": 407,
+    "id": 408,
+    "type": "binary"
+  },
+  {
+    "name": "Dipl. (Uni)",
+    "parent": 407,
+    "id": 409,
+    "type": "binary"
+  },
+  {
+    "name": "Dipl. (FH)",
+    "parent": 407,
+    "id": 410,
+    "type": "binary"
+  },
+  {
+    "name": "Master (Uni)",
+    "parent": 407,
+    "id": 411,
+    "type": "binary"
+  },
+  {
+    "name": "Master (FH)",
+    "parent": 407,
+    "id": 412,
+    "type": "binary"
+  },
+  {
+    "name": "Bachelor (Uni)",
+    "parent": 407,
+    "id": 413,
+    "type": "binary"
+  },
+  {
+    "name": "Bachelor (FH)",
+    "parent": 407,
+    "id": 414,
+    "type": "binary"
+  },
+  {
+    "name": "Training / teaching",
+    "parent": 407,
+    "id": 415,
+    "type": "rating"
+  },
+  {
+    "name": "Further education",
+    "parent": 407,
+    "id": 416,
+    "type": "rating"
+  },
+  {
+    "name": "G.1. Branches of Education",
+    "parent": 416,
+    "id": 417,
+    "type": "rating"
+  },
+  {
+    "name": "Engineers and technical professions",
+    "parent": 417,
+    "id": 418,
+    "type": "rating"
+  },
+  {
+    "name": "IT",
+    "parent": 417,
+    "id": 419,
+    "type": "rating"
+  },
+  {
+    "name": "Distribution and sales",
+    "parent": 417,
+    "id": 420,
+    "type": "rating"
+  },
+  {
+    "name": "Marketing and communication",
+    "parent": 417,
+    "id": 421,
+    "type": "rating"
+  },
+  {
+    "name": "Finances",
+    "parent": 417,
+    "id": 422,
+    "type": "rating"
+  },
+  {
+    "name": "Banks, financial service providers and insurance companies",
+    "parent": 417,
+    "id": 423,
+    "type": "rating"
+  },
+  {
+    "name": "Purchasing, materials management and logistics",
+    "parent": 417,
+    "id": 424,
+    "type": "rating"
+  },
+  {
+    "name": "staff",
+    "parent": 417,
+    "id": 425,
+    "type": "rating"
+  },
+  {
+    "name": "Administration and secretariat",
+    "parent": 417,
+    "id": 426,
+    "type": "rating"
+  },
+  {
+    "name": "Science and research",
+    "parent": 417,
+    "id": 427,
+    "type": "rating"
+  },
+  {
+    "name": "Medicine",
+    "parent": 417,
+    "id": 428,
+    "type": "rating"
+  },
+  {
+    "name": "Care, therapy and assistance",
+    "parent": 417,
+    "id": 429,
+    "type": "rating"
+  },
+  {
+    "name": "Education and Social",
+    "parent": 417,
+    "id": 430,
+    "type": "rating"
+  },
+  {
+    "name": "Public service",
+    "parent": 417,
+    "id": 431,
+    "type": "rating"
+  },
+  {
+    "name": "Law",
+    "parent": 417,
+    "id": 432,
+    "type": "rating"
+  },
+  {
+    "name": "Design, layout and architecture",
+    "parent": 417,
+    "id": 433,
+    "type": "rating"
+  },
+  {
+    "name": "Craft, service and manufacturing",
+    "parent": 417,
+    "id": 434,
+    "type": "rating"
+  },
+  {
+    "name": "Executives",
+    "parent": 417,
+    "id": 435,
+    "type": "rating"
+  },
+  {
+    "name": "G.1.1. Areas of Education",
+    "parent": 435,
+    "id": 436,
+    "type": "rating"
+  },
+  {
+    "name": "Automation technology",
+    "parent": 436,
+    "id": 437,
+    "type": "rating"
+  },
+  {
+    "name": "Construction Sector",
+    "parent": 436,
+    "id": 438,
+    "type": "rating"
+  },
+  {
+    "name": "Chemical engineering",
+    "parent": 436,
+    "id": 439,
+    "type": "rating"
+  },
+  {
+    "name": "Electrical engineering, electronics",
+    "parent": 436,
+    "id": 440,
+    "type": "rating"
+  },
+  {
+    "name": "Energy and environmental technology",
+    "parent": 436,
+    "id": 441,
+    "type": "rating"
+  },
+  {
+    "name": "development",
+    "parent": 436,
+    "id": 442,
+    "type": "rating"
+  },
+  {
+    "name": "Vehicle technology",
+    "parent": 436,
+    "id": 443,
+    "type": "rating"
+  },
+  {
+    "name": "manufacturing engineering",
+    "parent": 436,
+    "id": 444,
+    "type": "rating"
+  },
+  {
+    "name": "Building, supply, security technology",
+    "parent": 436,
+    "id": 445,
+    "type": "rating"
+  },
+  {
+    "name": "Construction, visualization",
+    "parent": 436,
+    "id": 446,
+    "type": "rating"
+  },
+  {
+    "name": "Plastics technology",
+    "parent": 436,
+    "id": 447,
+    "type": "rating"
+  },
+  {
+    "name": "Management, team management",
+    "parent": 436,
+    "id": 448,
+    "type": "rating"
+  },
+  {
+    "name": "Aerospace Engineering",
+    "parent": 436,
+    "id": 449,
+    "type": "rating"
+  },
+  {
+    "name": "mechanical engineering",
+    "parent": 436,
+    "id": 450,
+    "type": "rating"
+  },
+  {
+    "name": "Materials science",
+    "parent": 436,
+    "id": 451,
+    "type": "rating"
+  },
+  {
+    "name": "Mechatronics",
+    "parent": 436,
+    "id": 452,
+    "type": "rating"
+  },
+  {
+    "name": "Medical technology",
+    "parent": 436,
+    "id": 453,
+    "type": "rating"
+  },
+  {
+    "name": "Opticians, acousticians",
+    "parent": 436,
+    "id": 454,
+    "type": "rating"
+  },
+  {
+    "name": "Project management",
+    "parent": 436,
+    "id": 455,
+    "type": "rating"
+  },
+  {
+    "name": "Process management",
+    "parent": 436,
+    "id": 456,
+    "type": "rating"
+  },
+  {
+    "name": "Quality management",
+    "parent": 436,
+    "id": 457,
+    "type": "rating"
+  },
+  {
+    "name": "Service engineer",
+    "parent": 436,
+    "id": 458,
+    "type": "rating"
+  },
+  {
+    "name": "Technical documentation",
+    "parent": 436,
+    "id": 459,
+    "type": "rating"
+  },
+  {
+    "name": "Technical draftsman, draftsman",
+    "parent": 436,
+    "id": 460,
+    "type": "rating"
+  },
+  {
+    "name": "Event technology",
+    "parent": 436,
+    "id": 461,
+    "type": "rating"
+  },
+  {
+    "name": "Process technology",
+    "parent": 436,
+    "id": 462,
+    "type": "rating"
+  },
+  {
+    "name": "Sales engineer",
+    "parent": 436,
+    "id": 463,
+    "type": "rating"
+  },
+  {
+    "name": "Industrial engineer",
+    "parent": 436,
+    "id": 464,
+    "type": "rating"
+  },
+  {
+    "name": "Dental technology",
+    "parent": 436,
+    "id": 465,
+    "type": "rating"
+  },
+  {
+    "name": "Others: Engineers and technical professions",
+    "parent": 436,
+    "id": 466,
+    "type": "rating"
+  },
+  {
+    "name": "H. Networking",
+    "parent": null,
+    "id": 467,
+    "type": "rating"
+  },
+  {
+    "name": "Agency, advertising, marketing & PR",
+    "parent": 467,
+    "id": 468,
+    "type": "rating"
+  },
+  {
+    "name": "Automotive",
+    "parent": 467,
+    "id": 469,
+    "type": "rating"
+  },
+  {
+    "name": "H.1. Company",
+    "parent": 469,
+    "id": 470,
+    "type": "rating"
+  },
+  {
+    "name": "A123",
+    "parent": 470,
+    "id": 471,
+    "type": "rating"
+  },
+  {
+    "name": "H.1.1 Area",
+    "parent": 471,
+    "id": 472,
+    "type": "rating"
+  },
+  {
+    "name": "R&D",
+    "parent": 472,
+    "id": 473,
+    "type": "rating"
+  },
+  {
+    "name": "H.1.1.1 Sub-Area",
+    "parent": 473,
+    "id": 474,
+    "type": "rating"
+  },
+  {
+    "name": "Battery Developement",
+    "parent": 474,
+    "id": 475,
+    "type": "rating"
+  },
+  {
+    "name": "H.1.1.1 Sub-Sub Area",
+    "parent": 475,
+    "id": 476,
+    "type": "rating"
+  },
+  {
+    "name": "Battery Controler Developement",
+    "parent": 476,
+    "id": 477,
+    "type": "rating"
+  },
+  {
+    "name": "Audi",
+    "parent": 470,
+    "id": 478,
+    "type": "rating"
+  },
+  {
+    "name": "BMW",
+    "parent": 470,
+    "id": 479,
+    "type": "rating"
+  },
+  {
+    "name": "Mercedes",
+    "parent": 470,
+    "id": 480,
+    "type": "rating"
+  },
+  {
+    "name": "VW",
+    "parent": 470,
+    "id": 481,
+    "type": "rating"
+  },
+  {
+    "name": "H.1.1 Area",
+    "parent": 481,
+    "id": 482,
+    "type": "rating"
+  },
+  {
+    "name": "R&D",
+    "parent": 482,
+    "id": 483,
+    "type": "rating"
+  },
+  {
+    "name": "H.1.1.1 Sub-Area",
+    "parent": 483,
+    "id": 484,
+    "type": "rating"
+  },
+  {
+    "name": "Battery Developement",
+    "parent": 484,
+    "id": 485,
+    "type": "rating"
+  },
+  {
+    "name": "H.1.1.1 Sub-Sub Area",
+    "parent": 485,
+    "id": 486,
+    "type": "rating"
+  },
+  {
+    "name": "Battery Controler Developement",
+    "parent": 486,
+    "id": 487,
+    "type": "rating"
+  },
+  {
+    "name": "Skoda",
+    "parent": 470,
+    "id": 488,
+    "type": "rating"
+  },
+  {
+    "name": "Banks",
+    "parent": 467,
+    "id": 489,
+    "type": "rating"
+  },
+  {
+    "name": "Construction Sector",
+    "parent": 467,
+    "id": 490,
+    "type": "rating"
+  },
+  {
+    "name": "Mining",
+    "parent": 467,
+    "id": 491,
+    "type": "rating"
+  },
+  {
+    "name": "Education & Training",
+    "parent": 467,
+    "id": 492,
+    "type": "rating"
+  },
+  {
+    "name": "Chemical and petroleum processing industries",
+    "parent": 467,
+    "id": 493,
+    "type": "rating"
+  },
+  {
+    "name": "Printing, paper and packaging industries",
+    "parent": 467,
+    "id": 494,
+    "type": "rating"
+  },
+  {
+    "name": "Electrical engineering, precision mechanics & optics",
+    "parent": 467,
+    "id": 495,
+    "type": "rating"
+  },
+  {
+    "name": "Energy and water supply & disposal",
+    "parent": 467,
+    "id": 496,
+    "type": "rating"
+  },
+  {
+    "name": "Financial service providers",
+    "parent": 467,
+    "id": 497,
+    "type": "rating"
+  },
+  {
+    "name": "Leisure, tourism, culture & sport",
+    "parent": 467,
+    "id": 498,
+    "type": "rating"
+  },
+  {
+    "name": "Health & Social Services",
+    "parent": 467,
+    "id": 499,
+    "type": "rating"
+  },
+  {
+    "name": "Glass, ceramics manufacturing & processing",
+    "parent": 467,
+    "id": 500,
+    "type": "rating"
+  },
+  {
+    "name": "Wholesale & retail",
+    "parent": 467,
+    "id": 501,
+    "type": "rating"
+  },
+  {
+    "name": "Craft",
+    "parent": 467,
+    "id": 502,
+    "type": "rating"
+  },
+  {
+    "name": "Wood and furniture industry",
+    "parent": 467,
+    "id": 503,
+    "type": "rating"
+  },
+  {
+    "name": "Hotel, gastronomy & catering",
+    "parent": 467,
+    "id": 504,
+    "type": "rating"
+  },
+  {
+    "name": "Property",
+    "parent": 467,
+    "id": 505,
+    "type": "rating"
+  },
+  {
+    "name": "IT & Internet",
+    "parent": 467,
+    "id": 506,
+    "type": "rating"
+  },
+  {
+    "name": "Consumer goods / durables",
+    "parent": 467,
+    "id": 507,
+    "type": "rating"
+  },
+  {
+    "name": "Agriculture, forestry and fishing, horticulture",
+    "parent": 467,
+    "id": 508,
+    "type": "rating"
+  },
+  {
+    "name": "Aerospace",
+    "parent": 467,
+    "id": 509,
+    "type": "rating"
+  },
+  {
+    "name": "H.1. Company",
+    "parent": 509,
+    "id": 510,
+    "type": "rating"
+  },
+  {
+    "name": "Airbus",
+    "parent": 510,
+    "id": 511,
+    "type": "rating"
+  },
+  {
+    "name": "H.1.1 Area",
+    "parent": 511,
+    "id": 512,
+    "type": "rating"
+  },
+  {
+    "name": "R&D",
+    "parent": 512,
+    "id": 513,
+    "type": "rating"
+  },
+  {
+    "name": "H.1.1.1 Sub-Area",
+    "parent": 513,
+    "id": 514,
+    "type": "rating"
+  },
+  {
+    "name": "Electrical Design",
+    "parent": 514,
+    "id": 515,
+    "type": "rating"
+  },
+  {
+    "name": "H.1.1.1 Sub-Sub Area",
+    "parent": 515,
+    "id": 516,
+    "type": "rating"
+  },
+  {
+    "name": "A330",
+    "parent": 516,
+    "id": 517,
+    "type": "rating"
+  },
+  {
+    "name": "A380",
+    "parent": 516,
+    "id": 518,
+    "type": "rating"
+  },
+  {
+    "name": "Structural Design",
+    "parent": 514,
+    "id": 519,
+    "type": "rating"
+  },
+  {
+    "name": "H.1.1.1 Sub-Sub Area",
+    "parent": 519,
+    "id": 520,
+    "type": "rating"
+  },
+  {
+    "name": "A380",
+    "parent": 520,
+    "id": 521,
+    "type": "rating"
+  },
+  {
+    "name": "Manufacturing",
+    "parent": 512,
+    "id": 522,
+    "type": "rating"
+  },
+  {
+    "name": "H.1.1.1 Sub-Area",
+    "parent": 522,
+    "id": 523,
+    "type": "rating"
+  },
+  {
+    "name": "Manufactuing Engineering",
+    "parent": 523,
+    "id": 524,
+    "type": "rating"
+  },
+  {
+    "name": "H.1.1.1 Sub-Sub Area",
+    "parent": 524,
+    "id": 525,
+    "type": "rating"
+  },
+  {
+    "name": "A380",
+    "parent": 525,
+    "id": 526,
+    "type": "rating"
+  },
+  {
+    "name": "Assembly Line",
+    "parent": 523,
+    "id": 527,
+    "type": "rating"
+  },
+  {
+    "name": "H.1.1.1 Sub-Sub Area",
+    "parent": 527,
+    "id": 528,
+    "type": "rating"
+  },
+  {
+    "name": "A380",
+    "parent": 528,
+    "id": 529,
+    "type": "rating"
+  },
+  {
+    "name": "Management",
+    "parent": 512,
+    "id": 530,
+    "type": "rating"
+  },
+  {
+    "name": "H.1.1.1 Sub-Area",
+    "parent": 530,
+    "id": 531,
+    "type": "rating"
+  },
+  {
+    "name": "Industrial Management",
+    "parent": 531,
+    "id": 532,
+    "type": "rating"
+  },
+  {
+    "name": "H.1.1.1 Sub-Sub Area",
+    "parent": 532,
+    "id": 533,
+    "type": "rating"
+  },
+  {
+    "name": "A350",
+    "parent": 533,
+    "id": 534,
+    "type": "rating"
+  },
+  {
+    "name": "Assembly Line",
+    "parent": 531,
+    "id": 535,
+    "type": "rating"
+  },
+  {
+    "name": "H.1.1.1 Sub-Sub Area",
+    "parent": 535,
+    "id": 536,
+    "type": "rating"
+  },
+  {
+    "name": "A380",
+    "parent": 536,
+    "id": 537,
+    "type": "rating"
+  },
+  {
+    "name": "Rolls-Royce",
+    "parent": 510,
+    "id": 538,
+    "type": "rating"
+  },
+  {
+    "name": "H.1.1 Area",
+    "parent": 538,
+    "id": 539,
+    "type": "rating"
+  },
+  {
+    "name": "R&D",
+    "parent": 539,
+    "id": 540,
+    "type": "rating"
+  },
+  {
+    "name": "H.1.1.1 Sub-Area",
+    "parent": 540,
+    "id": 541,
+    "type": "rating"
+  },
+  {
+    "name": "Design",
+    "parent": 541,
+    "id": 542,
+    "type": "rating"
+  },
+  {
+    "name": "H.1.1.1 Sub-Sub Area",
+    "parent": 542,
+    "id": 543,
+    "type": "rating"
+  },
+  {
+    "name": "Concessions",
+    "parent": 543,
+    "id": 544,
+    "type": "rating"
+  },
+  {
+    "name": "Manufacturing",
+    "parent": 539,
+    "id": 545,
+    "type": "rating"
+  },
+  {
+    "name": "H.1.1.1 Sub-Area",
+    "parent": 545,
+    "id": 546,
+    "type": "rating"
+  },
+  {
+    "name": "Manufactuing Engineering",
+    "parent": 546,
+    "id": 547,
+    "type": "rating"
+  },
+  {
+    "name": "Assembly Line",
+    "parent": 546,
+    "id": 548,
+    "type": "rating"
+  },
+  {
+    "name": "Mechanical and plant engineering",
+    "parent": 467,
+    "id": 549,
+    "type": "rating"
+  },
+  {
+    "name": "Media (film, radio, TV, publishers)",
+    "parent": 467,
+    "id": 550,
+    "type": "rating"
+  },
+  {
+    "name": "Medical technology",
+    "parent": 467,
+    "id": 551,
+    "type": "rating"
+  },
+  {
+    "name": "H.1. Company",
+    "parent": 551,
+    "id": 552,
+    "type": "rating"
+  },
+  {
+    "name": "Rolls-Royce",
+    "parent": 552,
+    "id": 553,
+    "type": "rating"
+  },
+  {
+    "name": "H.1.1 Area",
+    "parent": 553,
+    "id": 554,
+    "type": "rating"
+  },
+  {
+    "name": 1,
+    "parent": 554,
+    "id": 555,
+    "type": "rating"
+  },
+  {
+    "name": "Metal industry",
+    "parent": 467,
+    "id": 556,
+    "type": "rating"
+  },
+  {
+    "name": "Food & Beverage",
+    "parent": 467,
+    "id": 557,
+    "type": "rating"
+  },
+  {
+    "name": "Public service & associations",
+    "parent": 467,
+    "id": 558,
+    "type": "rating"
+  },
+  {
+    "name": "Personnel services",
+    "parent": 467,
+    "id": 559,
+    "type": "rating"
+  },
+  {
+    "name": "Pharmaceutical industry",
+    "parent": 467,
+    "id": 560,
+    "type": "rating"
+  },
+  {
+    "name": "H.1. Company",
+    "parent": 560,
+    "id": 561,
+    "type": "rating"
+  },
+  {
+    "name": "Rolls-Royce",
+    "parent": 561,
+    "id": 562,
+    "type": "rating"
+  },
+  {
+    "name": "H.1.1 Area",
+    "parent": 562,
+    "id": 563,
+    "type": "rating"
+  },
+  {
+    "name": 1,
+    "parent": 563,
+    "id": 564,
+    "type": "rating"
+  },
+  {
+    "name": "other industries",
+    "parent": 467,
+    "id": 565,
+    "type": "rating"
+  },
+  {
+    "name": "other services",
+    "parent": 467,
+    "id": 566,
+    "type": "rating"
+  },
+  {
+    "name": "Other manufacturing industry",
+    "parent": 467,
+    "id": 567,
+    "type": "rating"
+  },
+  {
+    "name": "H.1. Company",
+    "parent": 567,
+    "id": 568,
+    "type": "rating"
+  },
+  {
+    "name": "Rolls-Royce",
+    "parent": 568,
+    "id": 569,
+    "type": "rating"
+  },
+  {
+    "name": "H.1.1 Area",
+    "parent": 569,
+    "id": 570,
+    "type": "rating"
+  },
+  {
+    "name": 1,
+    "parent": 570,
+    "id": 571,
+    "type": "rating"
+  },
+  {
+    "name": "Telecommunications",
+    "parent": 467,
+    "id": 572,
+    "type": "rating"
+  },
+  {
+    "name": "Textiles, clothing & leather goods",
+    "parent": 467,
+    "id": 573,
+    "type": "rating"
+  },
+  {
+    "name": "Transport & logistics",
+    "parent": 467,
+    "id": 574,
+    "type": "rating"
+  },
+  {
+    "name": "Management consultancy, auditor, law",
+    "parent": 467,
+    "id": 575,
+    "type": "rating"
+  },
+  {
+    "name": "Insurance",
+    "parent": 467,
+    "id": 576,
+    "type": "rating"
+  },
+  {
+    "name": "Science and research",
+    "parent": 467,
+    "id": 577,
+    "type": "rating"
+  },
+  {
+    "name": "I. Location Country",
+    "parent": null,
+    "id": 578,
+    "type": "rating"
+  },
+  {
+    "name": "Agypt",
+    "parent": 578,
+    "id": 579,
+    "type": "rating"
+  },
+  {
+    "name": "Cairo",
+    "parent": 579,
+    "id": 580,
+    "type": "rating"
+  },
+  {
+    "name": "France",
+    "parent": 578,
+    "id": 581,
+    "type": "rating"
+  },
+  {
+    "name": "Paris",
+    "parent": 581,
+    "id": 582,
+    "type": "rating"
+  },
+  {
+    "name": "Germany",
+    "parent": 578,
+    "id": 583,
+    "type": "rating"
+  },
+  {
+    "name": "Berlin",
+    "parent": 583,
+    "id": 584,
+    "type": "rating"
+  },
+  {
+    "name": "Hamburg",
+    "parent": 583,
+    "id": 585,
+    "type": "rating"
+  },
+  {
+    "name": "Munich",
+    "parent": 583,
+    "id": 586,
+    "type": "rating"
+  },
+  {
+    "name": "Colgne",
+    "parent": 583,
+    "id": 587,
+    "type": "rating"
+  },
+  {
+    "name": "Wolfsburg",
+    "parent": 583,
+    "id": 588,
+    "type": "rating"
+  },
+  {
+    "name": "Ingolstadt",
+    "parent": 583,
+    "id": 589,
+    "type": "rating"
+  },
+  {
+    "name": "Stuttgart",
+    "parent": 583,
+    "id": 590,
+    "type": "rating"
+  },
+  {
+    "name": "Bremen",
+    "parent": 583,
+    "id": 591,
+    "type": "rating"
+  },
+  {
+    "name": "India",
+    "parent": 578,
+    "id": 592,
+    "type": "rating"
+  },
+  {
+    "name": "Ireland",
+    "parent": 578,
+    "id": 593,
+    "type": "rating"
+  },
+  {
+    "name": "Italy",
+    "parent": 578,
+    "id": 594,
+    "type": "rating"
+  },
+  {
+    "name": "Romania",
+    "parent": 578,
+    "id": 595,
+    "type": "rating"
+  },
+  {
+    "name": "Spain",
+    "parent": 578,
+    "id": 596,
+    "type": "rating"
+  },
+  {
+    "name": "UK",
+    "parent": 578,
+    "id": 597,
+    "type": "rating"
+  },
+  {
+    "name": "USA",
+    "parent": 578,
+    "id": 598,
+    "type": "rating"
+  }
+]

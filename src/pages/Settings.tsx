@@ -67,7 +67,6 @@ export const Account = () => {
                   id="category"
                 />
                 <TextField fullWidth label="Name" id="name" />
-                <TextField fullWidth label="Beschreibung" id="description" />
               </Box>
             </Box>
           </CardContent>
