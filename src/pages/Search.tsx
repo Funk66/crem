@@ -26,16 +26,17 @@ const SearchResults = () => {
           <TableHead>
             <TableRow>
               <TableCell>Id</TableCell>
+              <TableCell>Ansprechpartner</TableCell>
               <TableCell>Python</TableCell>
               <TableCell>Englisch</TableCell>
               <TableCell>Catia</TableCell>
-              <TableCell>Ansprechpartner</TableCell>
             </TableRow>
           </TableHead>
           <TableBody>
             {results.map((user) => (
               <TableRow key={user.id.toString()}>
                 <TableCell>{user.id}</TableCell>
+                <TableCell>{user.superior}</TableCell>
                 {user.skills.map((skillLevel) => (
                   <TableCell>
                     <Rating
@@ -46,7 +47,6 @@ const SearchResults = () => {
                     />
                   </TableCell>
                 ))}
-                <TableCell>{user.superior}</TableCell>
               </TableRow>
             ))}
           </TableBody>
