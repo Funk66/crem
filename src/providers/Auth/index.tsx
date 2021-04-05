@@ -6,7 +6,7 @@ import {
   createContext,
 } from "react";
 import firebase from "firebase/app";
-import { auth, firestore } from "../firebase";
+import { auth, firestore, storage } from "../firebase";
 
 interface Superior {
   email: string;
@@ -24,10 +24,12 @@ export interface Auth {
   user: User | null;
   signIn: (email: string, password: string) => Promise<void>;
   signOut: () => Promise<void>;
+  getAvatar: () => string;
 }
 
 function useProvideAuth() {
   const [user, setUser] = useState<User | null>(null);
+  let avatar: string;
   const usersDB = firestore
     .collection("orgs")
     .doc("LDIL1mGQtVCXwADzl9BQ")
@@ -45,20 +47,27 @@ function useProvideAuth() {
             email: user.email,
             name: user.displayName,
             location: userData.location,
-            avatar: "https://firebasestorage.googleapis.com/v0/b/crem21.appspot.com/o/avatars%2F05OP8SxUgJO5lefxH0bJUSJs8Rq2.jpg?alt=media&token=2888aee6-5c6c-4e1b-9d60-a0dd95ec1649",
-            superior: {name: "Sofia Graf", email: "graf@crinnova.de"},
+            avatar:
+              "https://firebasestorage.googleapis.com/v0/b/crem21.appspot.com/o/avatars%2F05OP8SxUgJO5lefxH0bJUSJs8Rq2.jpg?alt=media&token=2888aee6-5c6c-4e1b-9d60-a0dd95ec1649",
+            superior: { name: "Sofia Graf", email: "graf@crinnova.de" },
           } as User;
-          setUser(appUser)
-          //if (userData.superior) {
-            //userData.superior.get().then((superiorRef: any) => {
-              //superiorRef.data().then((superior: Superior) => {
-                //appUser.superior = superior;
-                //setUser(appUser);
-              //});
-            //});
-          //} else setUser(appUser);
+          setUser(appUser);
         }
       });
+  };
+
+  const getAvatar = async () => {
+    if (!avatar && user != null) {
+      storage
+        .ref("avatars")
+        .child(`${user.id}.jpg`)
+        .getDownloadURL()
+        .then((url) => {
+          avatar = url
+          return url
+        });
+    }
+    return avatar;
   };
 
   const signIn = async (email: string, password: string) => {
@@ -81,7 +90,7 @@ function useProvideAuth() {
     });
   }, []);
 
-  return { user, signIn, signOut };
+  return { user, signIn, signOut, getAvatar };
 }
 
 const authContext = createContext({} as Auth);
