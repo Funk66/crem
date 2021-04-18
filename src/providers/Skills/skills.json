@@ -3318,12 +3318,6 @@
     "type": "rating"
   },
   {
-    "name": 1,
-    "parent": 554,
-    "id": 555,
-    "type": "rating"
-  },
-  {
     "name": "Metal industry",
     "parent": 467,
     "id": 556,
@@ -3372,12 +3366,6 @@
     "type": "rating"
   },
   {
-    "name": 1,
-    "parent": 563,
-    "id": 564,
-    "type": "rating"
-  },
-  {
     "name": "other industries",
     "parent": 467,
     "id": 565,
@@ -3411,12 +3399,6 @@
     "name": "H.1.1 Area",
     "parent": 569,
     "id": 570,
-    "type": "rating"
-  },
-  {
-    "name": 1,
-    "parent": 570,
-    "id": 571,
     "type": "rating"
   },
   {

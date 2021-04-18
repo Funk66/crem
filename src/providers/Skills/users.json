@@ -1,0 +1,802 @@
+[
+  {
+    "name": "Marie Mueller",
+    "sex": "w",
+    "email": "mueller@crinnova.de",
+    "id": "l3OD817snOYyqtd4vpM3bdePahy1",
+    "superior": "voigt@crinnova.de",
+    "location": "Stuttgart"
+  },
+  {
+    "name": "Sophie Schmidt",
+    "sex": "w",
+    "email": "schmidt@crinnova.de",
+    "id": "eQImf2i1ifdBnxfZLpkMkWfHFKa2",
+    "superior": "sommer@crinnova.de",
+    "location": "Hamburg"
+  },
+  {
+    "name": "Charlotte Schneider",
+    "sex": "w",
+    "email": "schneider@crinnova.de",
+    "id": "5XwUT64DFOdTP8AWml0oRPYn4Jt2",
+    "superior": "graf@crinnova.de",
+    "location": "Berlin"
+  },
+  {
+    "name": "Alexander Fischer",
+    "sex": "m",
+    "email": "fischer@crinnova.de",
+    "id": "xXDl66pjEPZiWhokAMwKAXxWbXp1",
+    "superior": "kraus@crinnova.de",
+    "location": "Berlin"
+  },
+  {
+    "name": "Noah Weber",
+    "sex": "m",
+    "email": "weber@crinnova.de",
+    "id": "3obVPQYntqUGRfszXv6U6XIIoCv1",
+    "superior": "voigt@crinnova.de",
+    "location": "Stuttgart"
+  },
+  {
+    "name": "Charlotte Meyer",
+    "sex": "w",
+    "email": "meyer@crinnova.de",
+    "id": "vgeVlVE25zPIl8VbHWBBiNtYLRB3",
+    "superior": "dietrich@crinnova.de",
+    "location": "Berlin"
+  },
+  {
+    "name": "David Wagner",
+    "sex": "m",
+    "email": "wagner@crinnova.de",
+    "id": "iW8TJrCBtkMrO6Qk6WFsZyIbeDm1",
+    "superior": "brandt@crinnova.de",
+    "location": "Berlin"
+  },
+  {
+    "name": "Emilia Becker",
+    "sex": "w",
+    "email": "becker@crinnova.de",
+    "id": "m5P8ebMFT5ebqgBoIlFq4lFXOXF2",
+    "superior": "sommer@crinnova.de",
+    "location": "Hamburg"
+  },
+  {
+    "name": "Leon Schulz",
+    "sex": "m",
+    "email": "schulz@crinnova.de",
+    "id": "RXM0QRBJXNgYKsZBo3pQM4AhXvg1",
+    "superior": "voigt@crinnova.de",
+    "location": "Stuttgart"
+  },
+  {
+    "name": "Maria Hoffmann",
+    "sex": "w",
+    "email": "hoffmann@crinnova.de",
+    "id": "jRwphJ1tspSGCn7cnFXAsiKQTxx1",
+    "superior": "graf@crinnova.de",
+    "location": "Berlin"
+  },
+  {
+    "name": "Maximilian Schaefer",
+    "sex": "m",
+    "email": "schaefer@crinnova.de",
+    "id": "fY7Xv85TckYLgwKdC0pBe5ttH632",
+    "superior": "dietrich@crinnova.de",
+    "location": "Berlin"
+  },
+  {
+    "name": "Valentin Koch",
+    "sex": "m",
+    "email": "koch@crinnova.de",
+    "id": "GYYSYd9J3QNjgLevdGp3uAnARak2",
+    "superior": "kraus@crinnova.de",
+    "location": "Berlin"
+  },
+  {
+    "name": "Ella Bauer",
+    "sex": "w",
+    "email": "bauer@crinnova.de",
+    "id": "Td4beClEiaawMZKBUP1l85nnGwJ3",
+    "superior": "voigt@crinnova.de",
+    "location": "Stuttgart"
+  },
+  {
+    "name": "Lea Richter",
+    "sex": "w",
+    "email": "richter@crinnova.de",
+    "id": "US6boT2ENTddTlAMW9pS6OBJhGx2",
+    "superior": "brandt@crinnova.de",
+    "location": "Berlin"
+  },
+  {
+    "name": "Theodor Klein",
+    "sex": "m",
+    "email": "klein@crinnova.de",
+    "id": "mkAgjaYyeAM7yu9lCQixEbnDk7A3",
+    "superior": "sommer@crinnova.de",
+    "location": "Hamburg"
+  },
+  {
+    "name": "Karl Wolf",
+    "sex": "m",
+    "email": "wolf@crinnova.de",
+    "id": "UKvLdUIu9lRdmFGrr54ElkMbhMN2",
+    "superior": "dietrich@crinnova.de",
+    "location": "Berlin"
+  },
+  {
+    "name": "Emma Schroeder",
+    "sex": "w",
+    "email": "schroeder@crinnova.de",
+    "id": "H0ZI1lge4BbprDfrzxH077hGNPI2",
+    "superior": "voigt@crinnova.de",
+    "location": "Stuttgart"
+  },
+  {
+    "name": "Maximilian Neumann",
+    "sex": "m",
+    "email": "neumann@crinnova.de",
+    "id": "OOivZBKQ1ph4nw6fkquS79HVYGm1",
+    "superior": "graf@crinnova.de",
+    "location": "Berlin"
+  },
+  {
+    "name": "Elias Schwarz",
+    "sex": "m",
+    "email": "schwarz@crinnova.de",
+    "id": "tfMAVpKilaXJuhKqtEuu8vZXo0g2",
+    "superior": "kraus@crinnova.de",
+    "location": "Berlin"
+  },
+  {
+    "name": "Paul Zimmermann",
+    "sex": "m",
+    "email": "zimmermann@crinnova.de",
+    "id": "2PWml2CObigRlkSU4HjLXf9v66Y2",
+    "superior": "brandt@crinnova.de",
+    "location": "Berlin"
+  },
+  {
+    "name": "Emilia Braun",
+    "sex": "w",
+    "email": "braun@crinnova.de",
+    "id": "FZWE6fzKRzdyobYTYjDo5q06fxr1",
+    "superior": "voigt@crinnova.de",
+    "location": "Stuttgart"
+  },
+  {
+    "name": "Sophia Krueger",
+    "sex": "w",
+    "email": "krueger@crinnova.de",
+    "id": "sRp0V63kvZdWP0gUPUA6kCLmYiU2",
+    "superior": "sommer@crinnova.de",
+    "location": "Hamburg"
+  },
+  {
+    "name": "Adam Hofmann",
+    "sex": "m",
+    "email": "hofmann@crinnova.de",
+    "id": "JCGs0yTPsJRejDg9Cs0UUwSyhAl2",
+    "superior": "graf@crinnova.de",
+    "location": "Berlin"
+  },
+  {
+    "name": "Anton Hartmann",
+    "sex": "m",
+    "email": "hartmann@crinnova.de",
+    "id": "tZkLuIDmEsWLXTKKByveEqEaruD2",
+    "superior": "kraus@crinnova.de",
+    "location": "Berlin"
+  },
+  {
+    "name": "Emil Lange",
+    "sex": "m",
+    "email": "lange@crinnova.de",
+    "id": "d6pZ6BjFEbRFP9QE6c1WOm41nwW2",
+    "superior": "voigt@crinnova.de",
+    "location": "Stuttgart"
+  },
+  {
+    "name": "Jonas Schmitt",
+    "sex": "m",
+    "email": "schmitt@crinnova.de",
+    "id": "BxqCThMuHEUqjlXa8FfRUlygW8b2",
+    "superior": "dietrich@crinnova.de",
+    "location": "Berlin"
+  },
+  {
+    "name": "Anna Werner",
+    "sex": "w",
+    "email": "werner@crinnova.de",
+    "id": "h3J8wsKxnMhcGm0t3pIbraJWT6Z2",
+    "superior": "brandt@crinnova.de",
+    "location": "Berlin"
+  },
+  {
+    "name": "Johanna Schmitz",
+    "sex": "w",
+    "email": "schmitz@crinnova.de",
+    "id": "Ytbxe9FBeDbPzfDJNLnKIxankhE3",
+    "superior": "sommer@crinnova.de",
+    "location": "Hamburg"
+  },
+  {
+    "name": "Felix Krause",
+    "sex": "m",
+    "email": "krause@crinnova.de",
+    "id": "qs92Vy3wvkaoYxEMpU4idJoyeKZ2",
+    "superior": "voigt@crinnova.de",
+    "location": "Stuttgart"
+  },
+  {
+    "name": "Liam Meier",
+    "sex": "m",
+    "email": "meier@crinnova.de",
+    "id": "SZZYk6tcamNgxHGyoIp2ijmqgfG2",
+    "superior": "graf@crinnova.de",
+    "location": "Berlin"
+  },
+  {
+    "name": "Elisabeth Lehmann",
+    "sex": "w",
+    "email": "lehmann@crinnova.de",
+    "id": "JDzGAsGNFvVxmYXuaAwl2rIgRmi1",
+    "superior": "dietrich@crinnova.de",
+    "location": "Berlin"
+  },
+  {
+    "name": "Clara Schmid",
+    "sex": "w",
+    "email": "schmid@crinnova.de",
+    "id": "P1XgS8URKjWGLXoEBsdwB74QsZ22",
+    "superior": "kraus@crinnova.de",
+    "location": "Berlin"
+  },
+  {
+    "name": "Mathilda Schulze",
+    "sex": "w",
+    "email": "schulze@crinnova.de",
+    "id": "bt1O5XBbKDTCcO3sQuvFtJAaMSe2",
+    "superior": "voigt@crinnova.de",
+    "location": "Stuttgart"
+  },
+  {
+    "name": "Elias Maier",
+    "sex": "m",
+    "email": "maier@crinnova.de",
+    "id": "MlbfIAyjb6SD9jNC6e9aQq8xvRz2",
+    "superior": "brandt@crinnova.de",
+    "location": "Berlin"
+  },
+  {
+    "name": "Jakob Koehler",
+    "sex": "m",
+    "email": "koehler@crinnova.de",
+    "id": "d1iCT7X96lYr2h9z2DNgC0s3vsr2",
+    "superior": "sommer@crinnova.de",
+    "location": "Hamburg"
+  },
+  {
+    "name": "Leo Herrmann",
+    "sex": "m",
+    "email": "herrmann@crinnova.de",
+    "id": "7zporWe5ObdPYURjX6hSwkD4vB02",
+    "superior": "dietrich@crinnova.de",
+    "location": "Berlin"
+  },
+  {
+    "name": "Lukas Koenig",
+    "sex": "m",
+    "email": "koenig@crinnova.de",
+    "id": "y2MejCQQ0kQNR8RXJt1r05aRpcZ2",
+    "superior": "voigt@crinnova.de",
+    "location": "Stuttgart"
+  },
+  {
+    "name": "Mia Walter",
+    "sex": "w",
+    "email": "walter@crinnova.de",
+    "id": "M86icsYwYlOxkuBt05rFStHbSQw1",
+    "superior": "graf@crinnova.de",
+    "location": "Berlin"
+  },
+  {
+    "name": "Henry Mayer",
+    "sex": "m",
+    "email": "mayer@crinnova.de",
+    "id": "UdoFjuYwx3RHeIZQc2CCSiSyS6k1",
+    "superior": "kraus@crinnova.de",
+    "location": "Berlin"
+  },
+  {
+    "name": "Frida Huber",
+    "sex": "w",
+    "email": "huber@crinnova.de",
+    "id": "yH6bYmoFVeedZXOZ3JRung3hetr1",
+    "superior": "brandt@crinnova.de",
+    "location": "Berlin"
+  },
+  {
+    "name": "Hannah Kaiser",
+    "sex": "w",
+    "email": "kaiser@crinnova.de",
+    "id": "mDcnLepNeOOPb0Krf1ukue2ftEo1",
+    "superior": "voigt@crinnova.de",
+    "location": "Stuttgart"
+  },
+  {
+    "name": "Olivia Fuchs",
+    "sex": "w",
+    "email": "fuchs@crinnova.de",
+    "id": "yXir0ygLlFayWUO5olFC6HYTt0P2",
+    "superior": "sommer@crinnova.de",
+    "location": "Hamburg"
+  },
+  {
+    "name": "Levi Peters",
+    "sex": "m",
+    "email": "peters@crinnova.de",
+    "id": "fKRN91lvM4aHDVNxqX0zAx4Ahsp2",
+    "superior": "graf@crinnova.de",
+    "location": "Berlin"
+  },
+  {
+    "name": "Paul Lang",
+    "sex": "m",
+    "email": "lang@crinnova.de",
+    "id": "fLqVVnNO1eYgnEFKJWycvTc2Ucy2",
+    "superior": "kraus@crinnova.de",
+    "location": "Berlin"
+  },
+  {
+    "name": "Luise Scholz",
+    "sex": "w",
+    "email": "scholz@crinnova.de",
+    "id": "4UePdBftnbOxYUBvgLW2Ul3qJzh2",
+    "superior": "voigt@crinnova.de",
+    "location": "Stuttgart"
+  },
+  {
+    "name": "Ben Moeller",
+    "sex": "m",
+    "email": "moeller@crinnova.de",
+    "id": "5072ssrYHianXypuaoj8Afb6sl33",
+    "superior": "dietrich@crinnova.de",
+    "location": "Berlin"
+  },
+  {
+    "name": "Gabriel Weiss",
+    "sex": "m",
+    "email": "weiss@crinnova.de",
+    "id": "N5L4htVoj1dczArJCuWll0Nl5uI2",
+    "superior": "brandt@crinnova.de",
+    "location": "Berlin"
+  },
+  {
+    "name": "Leonard Jung",
+    "sex": "m",
+    "email": "jung@crinnova.de",
+    "id": "wF3NR6mz5NctuMi60UEZv2zucW72",
+    "superior": "sommer@crinnova.de",
+    "location": "Hamburg"
+  },
+  {
+    "name": "Anna Hahn",
+    "sex": "w",
+    "email": "hahn@crinnova.de",
+    "id": "g3ekeqCSEQSWxdKLFepmvwvPjtj1",
+    "superior": "voigt@crinnova.de",
+    "location": "Stuttgart"
+  },
+  {
+    "name": "Hanna Schubert",
+    "sex": "w",
+    "email": "schubert@crinnova.de",
+    "id": "Ny1IXOOpCGQBex6VnYtPfZjhp4I2",
+    "superior": "graf@crinnova.de",
+    "location": "Berlin"
+  },
+  {
+    "name": "Marie Vogel",
+    "sex": "w",
+    "email": "vogel@crinnova.de",
+    "id": "zWklvUI2Lxc0V0VOdIpPhYXAMrO2",
+    "superior": "dietrich@crinnova.de",
+    "location": "Berlin"
+  },
+  {
+    "name": "Mila Friedrich",
+    "sex": "w",
+    "email": "friedrich@crinnova.de",
+    "id": "u8nd19gV9mhV27KKBQhfyDoCvHV2",
+    "superior": "kraus@crinnova.de",
+    "location": "Berlin"
+  },
+  {
+    "name": "Nora Keller",
+    "sex": "w",
+    "email": "keller@crinnova.de",
+    "id": "Smo9XTvOtuXW1eBKjbu2ggqZFr43",
+    "superior": "voigt@crinnova.de",
+    "location": "Stuttgart"
+  },
+  {
+    "name": "Paula Guenther",
+    "sex": "w",
+    "email": "guenther@crinnova.de",
+    "id": "EMs4uESMRLNXNF8eE4Dcw4lsCmG2",
+    "superior": "brandt@crinnova.de",
+    "location": "Berlin"
+  },
+  {
+    "name": "Benjamin Frank",
+    "sex": "m",
+    "email": "frank@crinnova.de",
+    "id": "MUZvy1pBsJZ0XdSh5Qwh6gk9wJm2",
+    "superior": "sommer@crinnova.de",
+    "location": "Hamburg"
+  },
+  {
+    "name": "Alma Berger",
+    "sex": "w",
+    "email": "berger@crinnova.de",
+    "id": "pjANReaMdAeZmyVMwdUuOA7XMf22",
+    "superior": "dietrich@crinnova.de",
+    "location": "Berlin"
+  },
+  {
+    "name": "Lara Winkler",
+    "sex": "w",
+    "email": "winkler@crinnova.de",
+    "id": "5GCcOTTDBgV0XCU3Rp6vHpg6YDB3",
+    "superior": "voigt@crinnova.de",
+    "location": "Stuttgart"
+  },
+  {
+    "name": "Leni Roth",
+    "sex": "w",
+    "email": "roth@crinnova.de",
+    "id": "y10VzPJ21SYl6X3EJXGcJJt7SYr2",
+    "superior": "graf@crinnova.de",
+    "location": "Berlin"
+  },
+  {
+    "name": "Leonie Beck",
+    "sex": "w",
+    "email": "beck@crinnova.de",
+    "id": "gWQFAQ65dkPg8akIaG4qpbnxubE3",
+    "superior": "kraus@crinnova.de",
+    "location": "Berlin"
+  },
+  {
+    "name": "Alexander Lorenz",
+    "sex": "m",
+    "email": "lorenz@crinnova.de",
+    "id": "irtHHizj3ScQsTTl2IBW3BbEmre2",
+    "superior": "brandt@crinnova.de",
+    "location": "Berlin"
+  },
+  {
+    "name": "Lina Baumann",
+    "sex": "w",
+    "email": "baumann@crinnova.de",
+    "id": "DDOL3yNjjrYRCKRrGDDoTrKZ6RD2",
+    "superior": "voigt@crinnova.de",
+    "location": "Stuttgart"
+  },
+  {
+    "name": "Max Franke",
+    "sex": "m",
+    "email": "franke@crinnova.de",
+    "id": "nsAKWx0M0mWs4980LwoKKEt83ss1",
+    "superior": "sommer@crinnova.de",
+    "location": "Hamburg"
+  },
+  {
+    "name": "Johanna Albrecht",
+    "sex": "w",
+    "email": "albrecht@crinnova.de",
+    "id": "LtpdhrYp0IO69i32SVux4kFZhdk1",
+    "superior": "graf@crinnova.de",
+    "location": "Berlin"
+  },
+  {
+    "name": "Helena Schuster",
+    "sex": "w",
+    "email": "schuster@crinnova.de",
+    "id": "0Pdb6JIqE6hScToLQkye7elxYY33",
+    "superior": "kraus@crinnova.de",
+    "location": "Berlin"
+  },
+  {
+    "name": "Julius Simon",
+    "sex": "m",
+    "email": "simon@crinnova.de",
+    "id": "DqjYSeb3MyanfzlAx7IXfSJ7iqj2",
+    "superior": "voigt@crinnova.de",
+    "location": "Stuttgart"
+  },
+  {
+    "name": "Lena Ludwig",
+    "sex": "w",
+    "email": "ludwig@crinnova.de",
+    "id": "T184QtPUVnPv0V2qRVxza4CxNwX2",
+    "superior": "dietrich@crinnova.de",
+    "location": "Berlin"
+  },
+  {
+    "name": "Pauline Boehm",
+    "sex": "w",
+    "email": "boehm@crinnova.de",
+    "id": "UmRE5NBPtqQ1RuR2H7qHWTS9bVg2",
+    "superior": "brandt@crinnova.de",
+    "location": "Berlin"
+  },
+  {
+    "name": "Ali Winter",
+    "sex": "m",
+    "email": "winter@crinnova.de",
+    "id": "D8vqQ7YN0uSHp8RamjXVevYjYYm2",
+    "superior": "sommer@crinnova.de",
+    "location": "Hamburg"
+  },
+  {
+    "name": "Anton Kraus",
+    "sex": "m",
+    "email": "kraus@crinnova.de",
+    "id": "9bSsa6s3W8Pns2SeDCKnLCuAVhl1",
+    "superior": null,
+    "location": "Berlin"
+  },
+  {
+    "name": "Johann Martin",
+    "sex": "m",
+    "email": "martin@crinnova.de",
+    "id": "C1B9rF8lPJacMnMezNsZmkYHhTC2",
+    "superior": "graf@crinnova.de",
+    "location": "Berlin"
+  },
+  {
+    "name": "Sophia Schumacher",
+    "sex": "w",
+    "email": "schumacher@crinnova.de",
+    "id": "6Uwbwq3r7RcqiYqp8pjKe6wXQrI3",
+    "superior": "dietrich@crinnova.de",
+    "location": "Berlin"
+  },
+  {
+    "name": "Finn Kraemer",
+    "sex": "m",
+    "email": "kraemer@crinnova.de",
+    "id": "05OP8SxUgJO5lefxH0bJUSJs8Rq2",
+    "superior": "kraus@crinnova.de",
+    "location": "Berlin"
+  },
+  {
+    "name": "Louis Vogt",
+    "sex": "m",
+    "email": "vogt@crinnova.de",
+    "id": "zSfQQBwic5biQW7BfdM0uHapaHs2",
+    "superior": "voigt@crinnova.de",
+    "location": "Stuttgart"
+  },
+  {
+    "name": "Amelie Stein",
+    "sex": "w",
+    "email": "stein@crinnova.de",
+    "id": "kmwinIGDkWY2zsyEWXqTcAjLl272",
+    "superior": "brandt@crinnova.de",
+    "location": "Berlin"
+  },
+  {
+    "name": "Luca Jaeger",
+    "sex": "m",
+    "email": "jaeger@crinnova.de",
+    "id": "b6WpdM3YKlda0WJebDBotLHbPCn1",
+    "superior": "sommer@crinnova.de",
+    "location": "Hamburg"
+  },
+  {
+    "name": "Maya Otto",
+    "sex": "w",
+    "email": "otto@crinnova.de",
+    "id": "i7Onl9ZslTZ28ddEixl25hpiIW03",
+    "superior": "dietrich@crinnova.de",
+    "location": "Berlin"
+  },
+  {
+    "name": "Malik Sommer",
+    "sex": "m",
+    "email": "sommer@crinnova.de",
+    "id": "tZwAJRaTKpPu3UJp2J7kozX4uPv2",
+    "superior": null,
+    "location": "Hamburg"
+  },
+  {
+    "name": "Milan Gross",
+    "sex": "m",
+    "email": "gross@crinnova.de",
+    "id": "c3Tx0GfwsAOI1ZNLJSf314CEeMx2",
+    "superior": "graf@crinnova.de",
+    "location": "Berlin"
+  },
+  {
+    "name": "Emil Seidel",
+    "sex": "m",
+    "email": "seidel@crinnova.de",
+    "id": "13LK4KyzfAfasze6j5abjOmvhfj2",
+    "superior": "kraus@crinnova.de",
+    "location": "Berlin"
+  },
+  {
+    "name": "Michael Heinrich",
+    "sex": "m",
+    "email": "heinrich@crinnova.de",
+    "id": "vetjdYLA1dUjWL9AEBVEsafx7Uz2",
+    "superior": "brandt@crinnova.de",
+    "location": "Berlin"
+  },
+  {
+    "name": "Emily Brandt",
+    "sex": "w",
+    "email": "brandt@crinnova.de",
+    "id": "VWncaBz8LVNW6C9jWOAHNie5TU52",
+    "superior": null,
+    "location": "Berlin"
+  },
+  {
+    "name": "Frieda Haas",
+    "sex": "w",
+    "email": "haas@crinnova.de",
+    "id": "0VVQRLU8gsWJH5wnr4wqq6pvzSv1",
+    "superior": "sommer@crinnova.de",
+    "location": "Hamburg"
+  },
+  {
+    "name": "Jonathan Schreiber",
+    "sex": "m",
+    "email": "schreiber@crinnova.de",
+    "id": "nvovq7fRW5aYExeXdu9DqP850Lv1",
+    "superior": "graf@crinnova.de",
+    "location": "Berlin"
+  },
+  {
+    "name": "Luise Graf",
+    "sex": "w",
+    "email": "graf@crinnova.de",
+    "id": "pXFsjf2fAUVBovCqoKOdY3YquS63",
+    "superior": null,
+    "location": "Berlin"
+  },
+  {
+    "name": "Linus Schulte",
+    "sex": "m",
+    "email": "schulte@crinnova.de",
+    "id": "aVMnYBmM4lbtRG7TmAzSNs4bj2y2",
+    "superior": "voigt@crinnova.de",
+    "location": "Stuttgart"
+  },
+  {
+    "name": "Sofia Dietrich",
+    "sex": "w",
+    "email": "dietrich@crinnova.de",
+    "id": "W6UWPVggm0g694YMegEKGK0Z9I63",
+    "superior": null,
+    "location": "Berlin"
+  },
+  {
+    "name": "Sophie Ziegler",
+    "sex": "w",
+    "email": "ziegler@crinnova.de",
+    "id": "OExheNPRa5eegfZyZ1TTe5iyQmf2",
+    "superior": "brandt@crinnova.de",
+    "location": "Berlin"
+  },
+  {
+    "name": "Elisabeth Kuhn",
+    "sex": "w",
+    "email": "kuhn@crinnova.de",
+    "id": "OBBM2EGl8JRd14i9DngoNcSqqb52",
+    "superior": "sommer@crinnova.de",
+    "location": "Hamburg"
+  },
+  {
+    "name": "Benjamin Kuehn",
+    "sex": "m",
+    "email": "kuehn@crinnova.de",
+    "id": "VFVLU1IHrSa1YGz5OpyyGUU17aG3",
+    "superior": "voigt@crinnova.de",
+    "location": "Stuttgart"
+  },
+  {
+    "name": "Luisa Pohl",
+    "sex": "w",
+    "email": "pohl@crinnova.de",
+    "id": "HDJE1lDnDydjZSPM75jXVIgCCIs2",
+    "superior": "graf@crinnova.de",
+    "location": "Berlin"
+  },
+  {
+    "name": "Aaron Engel",
+    "sex": "m",
+    "email": "engel@crinnova.de",
+    "id": "LsWbNz54VwZqEO0Idrg4uy2Bpyf1",
+    "superior": "dietrich@crinnova.de",
+    "location": "Berlin"
+  },
+  {
+    "name": "Luis Horn",
+    "sex": "m",
+    "email": "horn@crinnova.de",
+    "id": "eccqmGdRL3YceMygJ90WiAWWSgA3",
+    "superior": "kraus@crinnova.de",
+    "location": "Berlin"
+  },
+  {
+    "name": "Ava Busch",
+    "sex": "w",
+    "email": "busch@crinnova.de",
+    "id": "hLOA2ujsKwYigx0gdM1ENLW1TBA2",
+    "superior": "voigt@crinnova.de",
+    "location": "Stuttgart"
+  },
+  {
+    "name": "Mateo Bergmann",
+    "sex": "m",
+    "email": "bergmann@crinnova.de",
+    "id": "6tYsOTYUcVP0nzV4OOdI4ohawsO2",
+    "superior": "brandt@crinnova.de",
+    "location": "Berlin"
+  },
+  {
+    "name": "Isabella Thomas",
+    "sex": "w",
+    "email": "thomas@crinnova.de",
+    "id": "8qJ0XLCTi1WIZrlNUfNEMvqQHjX2",
+    "superior": "sommer@crinnova.de",
+    "location": "Hamburg"
+  },
+  {
+    "name": "Raphael Voigt",
+    "sex": "m",
+    "email": "voigt@crinnova.de",
+    "id": "POgTE0cXRRRyyoRnbmGfmBFwWeL2",
+    "superior": null,
+    "location": "Stuttgart"
+  },
+  {
+    "name": "Juna Sauer",
+    "sex": "w",
+    "email": "sauer@crinnova.de",
+    "id": "PQjMkv03R7aYDeHnHHOsxOqvT5q2",
+    "superior": "voigt@crinnova.de",
+    "location": "Stuttgart"
+  },
+  {
+    "name": "Samuel Arnold",
+    "sex": "m",
+    "email": "arnold@crinnova.de",
+    "id": "Q0UPnkKGcAXk0p6k8tK9kUFtpzA2",
+    "superior": "graf@crinnova.de",
+    "location": "Berlin"
+  },
+  {
+    "name": "Liya Wolff",
+    "sex": "w",
+    "email": "wolff@crinnova.de",
+    "id": "O0UkCdhAQdVndbVrTXxtQagErM03",
+    "superior": "kraus@crinnova.de",
+    "location": "Berlin"
+  },
+  {
+    "name": "Tim Pfeiffer",
+    "sex": "m",
+    "email": "pfeiffer@crinnova.de",
+    "id": "EDyfxYwnbBfKBshUvR6NIigbKg03",
+    "superior": "brandt@crinnova.de",
+    "location": "Berlin"
+  }
+]
