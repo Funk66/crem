@@ -4,6 +4,7 @@ export enum Route {
   Account = "/account",
   Skills = "/skills",
   Team = "/team",
+  Charts = "/charts",
   Search = "/search",
   Settings = "/settings",
 }

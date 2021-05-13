@@ -45,17 +45,18 @@ function useProvideAuth() {
             email: user.email,
             name: user.displayName,
             location: userData.location,
-            avatar: "https://firebasestorage.googleapis.com/v0/b/crem21.appspot.com/o/avatars%2F05OP8SxUgJO5lefxH0bJUSJs8Rq2.jpg?alt=media&token=2888aee6-5c6c-4e1b-9d60-a0dd95ec1649",
-            superior: {name: "Sofia Graf", email: "graf@crinnova.de"},
+            avatar:
+              "https://firebasestorage.googleapis.com/v0/b/crem21.appspot.com/o/avatars%2F05OP8SxUgJO5lefxH0bJUSJs8Rq2.jpg?alt=media&token=2888aee6-5c6c-4e1b-9d60-a0dd95ec1649",
+            superior: { name: "Sofia Graf", email: "graf@crinnova.de" },
           } as User;
-          setUser(appUser)
+          setUser(appUser);
           //if (userData.superior) {
-            //userData.superior.get().then((superiorRef: any) => {
-              //superiorRef.data().then((superior: Superior) => {
-                //appUser.superior = superior;
-                //setUser(appUser);
-              //});
-            //});
+          //userData.superior.get().then((superiorRef: any) => {
+          //superiorRef.data().then((superior: Superior) => {
+          //appUser.superior = superior;
+          //setUser(appUser);
+          //});
+          //});
           //} else setUser(appUser);
         }
       });
@@ -63,7 +64,19 @@ function useProvideAuth() {
 
   const signIn = async (email: string, password: string) => {
     return auth.signInWithEmailAndPassword(email, password).then((response) => {
-      if (response.user) newUser(response.user);
+      if (response.user) {
+        const appUser = {
+          id: response.user.uid,
+          email: response.user.email,
+          name: "Robert Landeck",
+          location: "Berlin",
+          avatar:
+            "https://firebasestorage.googleapis.com/v0/b/crem21.appspot.com/o/avatars%2F05OP8SxUgJO5lefxH0bJUSJs8Rq2.jpg?alt=media&token=2888aee6-5c6c-4e1b-9d60-a0dd95ec1649",
+          superior: { name: "Sofia Graf", email: "graf@crinnova.de" },
+        } as User;
+        setUser(appUser);
+      }
+      //newUser(response.user);
     });
   };
 

@@ -57,7 +57,7 @@ export const Account = () => {
         <Card>
           <CardMedia
             style={{ height: 0, paddingTop: "56.25%" }}
-            image="https://media-exp1.licdn.com/dms/image/C4D03AQHK7wSHlmbY1w/profile-displayphoto-shrink_400_400/0/1516502936524?e=1619654400&v=beta&t=0pQ5hnPuwi6GXsMvB4fCP525UpdNq_4hHzJ2k_VNaWA"
+            image="https://media-exp1.licdn.com/dms/image/C4D03AQHK7wSHlmbY1w/profile-displayphoto-shrink_800_800/0/1516502936524?e=1626307200&v=beta&t=38GAkjCM0OUW5buR-Yq3um6YeRLW84DrNKEsKc31h7Q"
             title="profile"
           />
           <CardContent>

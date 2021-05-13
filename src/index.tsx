@@ -50,6 +50,7 @@ function App() {
                 component={pages.Skills}
               />
               <PrivateRoute exact path={Route.Team} component={pages.Team} />
+              <PrivateRoute exact path={Route.Charts} component={pages.Charts} />
               <PrivateRoute
                 exact
                 path={Route.Search}

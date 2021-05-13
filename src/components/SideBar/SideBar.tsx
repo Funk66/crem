@@ -12,6 +12,7 @@ import {
   ListItemText,
 } from "@material-ui/core";
 import {
+  BarChart,
   ChevronLeft,
   ChevronRight,
   AccountCircle,
@@ -70,6 +71,11 @@ const navButtons = [
     name: "Team",
     route: "/team",
     Icon: People,
+  },
+  {
+    name: "Tabellen",
+    route: "/charts",
+    Icon: BarChart,
   },
   {
     name: "Suche",
@@ -141,7 +147,9 @@ export const SideBar = () => {
           <ListItem
             button
             key={"Ausloggen"}
-            onClick={() => auth.signOut().then(() => history.push(Route.SignIn))}
+            onClick={() =>
+              auth.signOut().then(() => history.push(Route.SignIn))
+            }
             divider
           >
             <ListItemIcon>
